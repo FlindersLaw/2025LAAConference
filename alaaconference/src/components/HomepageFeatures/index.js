@@ -4,32 +4,66 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Technology and Law',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        After a decade of technological advancements and nearly two years of
+        rapid development of large language models, examination of the efffects
+        and implications of emergent technologies on legal scholarship, education
+        and practice.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Globalisation and Legal Systems',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+      Analysing how globalisation is reshaping legal systems and the challenges
+      and opportunities this presents for legal academics.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Social Justice and Legal Scholarship',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+      Exploring the role of legal scholarship and education in promoting social
+      justice and equity, and addressing systemic inequalities within legal systems.
+      </>
+    ),
+  },
+  {
+    title: 'Colonial experiences and truth-telling in Australia and Aotearoa New Zealand',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+      Focus on the law as a technology of dispossession in the Pacific, and legal
+      futures in the aftermath of the 2023 Australian referendum, Maori experiences
+      in contemporary Aotearoa New Zealand, and movements of truth-telling and treaty.
+      </>
+    ),
+  },
+  {
+    title: "Environmental Law and Earth's Futures",
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+      Discussing the role of legal scholarship and education in addressing environmental
+      challenges and promoting the future/s of our planet and beyond.
+      </>
+    ),
+  },
+  {
+    title: 'Interdisciplinary and intercultural Perspectives',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+      Encouraging interdisciplinary and intercultural collaboration and exploring how
+      insights from other disciplines and diverse cultures can enrich legal scholarship
+      and education.
       </>
     ),
   },

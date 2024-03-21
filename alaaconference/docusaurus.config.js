@@ -73,63 +73,72 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
+            label: 'Registration',
+            to: '/tbc',
+            position: 'left'
+          },
+          {
+            label: 'Submissions',
+            to: '/tbc',
+            position: 'left'
+          },
+          {
+            label: 'Program',
+            to: '/tbc',
+            position: 'left'
+          },
+          {
+            label: 'Conference Material',
+            to: '/tbc',
+            position: 'left'
           },
           {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Registration',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Register here',
+                href: 'https://tbc.com'
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Conference Information',
             items: [
               {
-                label: 'Stack Overflow',
+                label: 'Program',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
               {
-                label: 'Discord',
+                label: 'Conference',
                 href: 'https://discordapp.com/invite/docusaurus',
               },
+            ],
+          },
+          {
+            title: 'Contact',
+            items: [
               {
-                label: 'Twitter',
+                label: 'Contact ALAA',
+                to: '/blog',
+              },
+              {
+                label: 'Contact Flinders Law',
+                href: 'https://github.com/facebook/docusaurus',
+              },
+              {
+                label: 'ALAA Twitter',
                 href: 'https://twitter.com/docusaurus',
               },
             ],
           },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Flinders University. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
