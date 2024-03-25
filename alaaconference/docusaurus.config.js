@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Freedoms + Futures: Challenges for Legal Academic Scholarship',
+  title: '2024 Australasian Law Academics Association (ALAA) Conference',
   tagline: '3 - 5 July 2024',
   favicon: 'img/favicon.ico',
 
@@ -68,9 +68,10 @@ const config = {
       navbar: {
         title: '2024 ALAA Conference',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/alaa_logo.webp',
+          alt: 'ALAA Logo',
+          src: '/img/alaa_logo.webp',
         },
+        hideOnScroll: true,
         items: [
           {
             label: 'Registration',
@@ -92,7 +93,13 @@ const config = {
             to: '/tbc',
             position: 'left'
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          /* Not using this (yet)
+          {to: '/blog', label: 'Blog', position: 'left'}, */
+          {
+            type: 'html',
+            position: 'right',
+            value: '<a href="https://flinders.edu.au"><img src="img/Flinders_University_Logo_Horizontal_RGB_Master.png" height="30px"></a>',
+          }
         ],
       },
       footer: {
@@ -143,6 +150,12 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+      },
+      /* Disables dark mode */
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
       },
     }),
 };
