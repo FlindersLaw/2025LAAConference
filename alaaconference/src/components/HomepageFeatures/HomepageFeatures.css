@@ -1,0 +1,9 @@
+.HPHeading {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+.HPHeading h1 {
+    text-align: center;
+    padding: 20px;
+}

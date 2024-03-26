@@ -4,6 +4,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import EOIButton from '@site/src/components/EOIButton';
+import EOIBanner from '@site/src/components/EOIBanner';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
@@ -29,6 +30,7 @@ export default function Home() {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
+        <EOIBanner />
         <EOIButton />
         <HomepageFeatures />
       </main>

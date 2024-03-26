@@ -75,15 +75,15 @@ const config = {
         items: [
           {
             label: 'Registration',
-            to: '/tbc',
+            to: '/registration',
             position: 'left'
           },
           {
-            label: 'Submissions',
-            to: '/tbc',
+            label: 'FAQ',
+            to: '/faq',
             position: 'left'
           },
-          {
+          /*{
             label: 'Program',
             to: '/tbc',
             position: 'left'
@@ -92,7 +92,7 @@ const config = {
             label: 'Conference Material',
             to: '/tbc',
             position: 'left'
-          },
+          },*/
           /* Not using this (yet)
           {to: '/blog', label: 'Blog', position: 'left'}, */
           {
@@ -105,7 +105,7 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
+          /*{
             title: 'Registration',
             items: [
               {
@@ -113,8 +113,8 @@ const config = {
                 href: 'https://tbc.com'
               },
             ],
-          },
-          {
+          },*/
+          /* {
             title: 'Conference Information',
             items: [
               {
@@ -126,8 +126,8 @@ const config = {
                 href: 'https://discordapp.com/invite/docusaurus',
               },
             ],
-          },
-          {
+          },*/
+          /* {
             title: 'Contact',
             items: [
               {
@@ -143,7 +143,7 @@ const config = {
                 href: 'https://twitter.com/docusaurus',
               },
             ],
-          },
+          }, */
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Flinders University. Built with Docusaurus.`,
       },
