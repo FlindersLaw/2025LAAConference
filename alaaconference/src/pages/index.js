@@ -16,7 +16,12 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">
+          Hosted at <a href='https://www.flinders.edu.au/festival-plaza'>Flinders University's New City Campus!</a>
+        </p>
+        <p className="hero__subtitle">
+          {siteConfig.tagline}
+        </p>
       </div>
     </header>
   );
