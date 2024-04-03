@@ -5,7 +5,7 @@ const EOIButton = () => {
   return (
     <div className="buttonContainer">
       <a
-        href="https://docassemble2.flinders.edu.au/interview?i=docassemble.2024ALAAConference:data/questions/eoi.yml"
+        href="https://forms.office.com/Pages/ResponsePage.aspx?id=u30Vcr3o3ECNAD8IwjSsR5d-9ebgQuFCqx0MmfvIP1hUMjYzMFRUOFkyWU1OWDhTWDVXMVg0S0FTMC4u"
         className="interestButton"
         target='_blank'
         rel='noopener noreferrer'
