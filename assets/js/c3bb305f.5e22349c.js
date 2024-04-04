@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalaaconference=self.webpackChunkalaaconference||[]).push([[1825],{7479:e=>{e.exports=JSON.parse('{"permalink":"/2024ALAAConference/blog/tags/hola","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

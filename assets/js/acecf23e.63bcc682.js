@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalaaconference=self.webpackChunkalaaconference||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/2024ALAAConference/blog","blogTitle":"Blog"}')}}]);
