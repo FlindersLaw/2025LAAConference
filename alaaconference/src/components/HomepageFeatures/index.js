@@ -6,7 +6,7 @@ import './HomepageFeatures.css';
 const FeatureList = [
   {
     title: 'Technology and Law',
-    thumbnail: '/img/legaltech.png',
+    thumbnail: 'img/legaltech.png',
     description: (
       <>
         After a decade of technological advancements and nearly two years of
@@ -18,7 +18,7 @@ const FeatureList = [
   },
   {
     title: 'Globalisation and Legal Systems',
-    thumbnail: '/img/globalisation.jpg',
+    thumbnail: 'img/globalisation.jpg',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
@@ -29,7 +29,7 @@ const FeatureList = [
   },
   {
     title: 'Social Justice and Legal Scholarship',
-    thumbnail: '/img/social_justice.jpg',
+    thumbnail: 'img/social_justice.jpg',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
@@ -40,7 +40,7 @@ const FeatureList = [
   },
   {
     title: 'Colonial experiences and truth-telling in Australia and Aotearoa New Zealand',
-    thumbnail: '/img/colonial_experiences.jpg',
+    thumbnail: 'img/colonial_experiences.jpg',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
@@ -52,7 +52,7 @@ const FeatureList = [
   },
   {
     title: "Environmental Law and Earth's Futures",
-    thumbnail: '/img/environmental_law.jpg',
+    thumbnail: 'img/environmental_law.jpg',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
@@ -63,7 +63,7 @@ const FeatureList = [
   },
   {
     title: 'Interdisciplinary and intercultural Perspectives',
-    thumbnail: '/img/intercultural.jpg',
+    thumbnail: 'img/intercultural.jpg',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
