@@ -32,7 +32,7 @@ export default function Home() {
   return (
     <Layout
       title={`2024 ALAA Conference`}
-      description="Description will go into a meta tag in <head />">
+      description="Australasian Legal Academics Association Conference 2024 <head />">
       <HomepageHeader />
       <main>
         <EOIBanner />
