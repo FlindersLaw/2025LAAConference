@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalaaconference=self.webpackChunkalaaconference||[]).push([[3388],{2945:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-blog","id":"default"}')}}]);
