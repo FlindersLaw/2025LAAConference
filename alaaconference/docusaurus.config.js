@@ -16,7 +16,7 @@ const config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For Azure Static Webapps deployment
   url: 'https://your-docusaurus-site.example.com',
-  baseURL: '/',
+  baseUrl: '/',
 
   // For GitHub pages deployment, it is often '/<projectName>/'
   // url: 'https://flinderslaw.github.io/',
