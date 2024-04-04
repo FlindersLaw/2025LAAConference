@@ -13,13 +13,14 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  // url: 'https://flinderslaw.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  // baseUrl: '/2024ALAAConference',
+  // For Azure Static Webapps deployment
+  url: 'https://your-docusaurus-site.example.com',
+  baseURL: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
+  // For GitHub pages deployment, it is often '/<projectName>/'
+  // url: 'https://flinderslaw.github.io/',
+  // baseUrl: '/2024ALAAConference',
   // organizationName: 'FlindersLaw', // Usually your GitHub org/user name.
   // projectName: '2024ALAAConference', // Usually your repo name.
   // deploymentBranch: 'gh-pages',
