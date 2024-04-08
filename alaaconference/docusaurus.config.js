@@ -15,16 +15,16 @@ const config = {
   // Set the production url of your site here
   // Set the /<baseUrl>/ pathname under which your site is served
   // For Azure Static Webapps deployment
-  url: 'https://your-docusaurus-site.example.com',
-  baseUrl: '/',
+  // url: 'https://your-docusaurus-site.example.com',
+  // baseUrl: '/',
 
   // For GitHub pages deployment, it is often '/<projectName>/'
-  // url: 'https://flinderslaw.github.io/',
-  // baseUrl: '/2024ALAAConference',
-  // organizationName: 'FlindersLaw', // Usually your GitHub org/user name.
-  // projectName: '2024ALAAConference', // Usually your repo name.
-  // deploymentBranch: 'gh-pages',
-  // trailingSlash: false,
+  url: 'https://flinderslaw.github.io/',
+  baseUrl: '/2024ALAAConference',
+  organizationName: 'FlindersLaw', // Usually your GitHub org/user name.
+  projectName: '2024ALAAConference', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -59,7 +59,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/legaltech.png',
       navbar: {
         title: '2024 ALAA Conference',
         logo: {
