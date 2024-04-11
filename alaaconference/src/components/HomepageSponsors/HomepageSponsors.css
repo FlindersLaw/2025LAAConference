@@ -1,0 +1,9 @@
+.SponsorHeading {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+.SponsorHeading h1 {
+    text-align: center;
+    padding: 20px;
+}

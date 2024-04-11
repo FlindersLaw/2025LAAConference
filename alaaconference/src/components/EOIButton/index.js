@@ -1,7 +1,8 @@
 import React from 'react';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import './EOIButton.css'; // Importing the CSS file
 
-const EOIButton = () => {
+export const EOIButton = () => {
   return (
     <div className="buttonContainer">
       <a
@@ -16,5 +17,20 @@ const EOIButton = () => {
     </div>
   );
 };
+
+// URL to internal registration URL (not payment gateway)
+const registerURL = '/registration';
+export const RegisterButton = () => {
+  return (
+    <div className='buttonContainer'>
+      <a
+        href={useBaseUrl(registerURL)}
+        className='registerButton'
+      >
+        ALAA 2024 Conference Registration
+      </a>
+    </div>
+  )
+}
 
 export default EOIButton;

@@ -96,7 +96,7 @@ export default function HomepageFeatures() {
     <section className={styles.features}>
       <div className="container">
         <div className="HPHeading">
-          <h1>Conference Themes</h1>
+          <h1>Freedoms + Futures: Challenges for Legal Academic Scholarship</h1>
         </div>
         <div className="row">
           {FeatureList.map((props, idx) => (

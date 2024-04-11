@@ -1,0 +1,26 @@
+.Sponsorfeatures {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.SponsorfeatureSvg {
+  width: 50%;
+  object-fit: cover;
+  vertical-align: center;
+}
+
+.SponsorfpTitle {
+  font-size: var(--ifm-h3-font-size);
+  color: var(--ifm-headig-color);
+  font-family: var(--ifm-heading-font-family);
+  font-weight: var(--ifm-heading-font-weight);
+  line-height: var(--ifm-heading-line-height);
+  margin: var(--ifm-heading-margin-top) 0 var(--ifm-heading-margin-bottom) 0;
+}
+
+.Sponsorheading {
+    text-align: center;
+    padding-top: 20px;
+}
