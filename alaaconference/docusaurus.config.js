@@ -74,20 +74,25 @@ const config = {
             position: 'left'
           },
           {
-            label: 'FAQ',
-            to: '/faq',
-            position: 'left'
-          },
-          /*{
-            label: 'Program',
-            to: '/tbc',
-            position: 'left'
+            label: 'Accommodation',
+            to: '/accommodation',
+            position: 'left',
           },
           {
-            label: 'Conference Material',
-            to: '/tbc',
+            label: 'Flinders New City Campus',
+            to: '/flinders_ncc',
+            position: 'left',
+          },
+          {
+            label: 'Gala Dinner',
+            to: '/gala_dinner',
+            position: 'left',
+          },
+          {
+            label: 'Program and Conference Material',
+            to: '/docs/index',
             position: 'left'
-          },*/
+          },
           /* Not using this (yet)
           {to: '/blog', label: 'Blog', position: 'left'}, */
           {

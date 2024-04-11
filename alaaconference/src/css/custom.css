@@ -93,3 +93,50 @@
     height: 10vh;
     width: 100%;
 }
+
+/* I'm using this underlined heading more and more so moving it to the
+global CSS file.  This was RFHeading */
+.ALAAHeading {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    border: 0;
+    border-bottom: 1px solid var(--flinders-blue);
+    margin-bottom: 10px;
+}
+
+/* Styles for accommodation.mdx */
+/* Custom styles for alternating image-text sections */
+.alternating-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.alternating-section .section-text {
+  flex: 1 1 60%; /* Gives text majority of the space */
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: top;
+}
+
+.alternating-section .section-image {
+  flex: 1 1 30%; /* Adjust based on your image size preference */
+  max-width: 30%; /* Keeps image from taking more than 30% of space */
+}
+
+/* Adjustments for mobile screens */
+@media (max-width: 768px) {
+  .alternating-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .alternating-section .section-text,
+  .alternating-section .section-image {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
