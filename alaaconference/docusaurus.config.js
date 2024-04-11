@@ -90,7 +90,7 @@ const config = {
           },
           {
             label: 'Program and Conference Material',
-            to: '/docs/index',
+            to: '/docs',
             position: 'left'
           },
           /* Not using this (yet)
