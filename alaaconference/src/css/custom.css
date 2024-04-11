@@ -49,3 +49,47 @@
 .hero__title {
   font-family: PlayfairDisplay;
 }
+
+/* Styles for the registration page */
+.registration_title {
+  text-align: Center
+}
+/* Table for displaying fee schedule */
+.registrationFeeTable {
+  vertical-align: top;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid var(--flinders-blue);
+}
+
+.registrationFeeTable tr,
+.registrationFeeTable th,
+.registrationFeeTable td {
+  border: none;
+}
+
+/* Turn off inherited banding */
+.registrationFeeTable tr:nth-child(odd),
+.registrationFeeTable tr:nth-child(even) {
+  background-color: transparent;
+}
+
+.registrationFeeTable th {
+  padding-right: 50px;
+}
+
+.registrationFeeTable td {
+  padding-left: 2px;
+  padding-right: 2px;
+  text-align: right;
+}
+
+/* Copied from EOIButton.css as it wasn't being read there */
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+}

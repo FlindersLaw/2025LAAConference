@@ -19,15 +19,19 @@ export const EOIButton = () => {
 };
 
 // URL to internal registration URL (not payment gateway)
-const registerURL = '/registration';
-export const RegisterButton = () => {
+export function RegisterButton(props) {
+  // console.log("registerURL:", props.registerURL);
+  // console.log("buttonText:", props.buttonText);
+  // console.log("props:", props);
+  // console.log("theURL:", theURL);
+  let theURL = useBaseUrl(props.registerURL);
   return (
     <div className='buttonContainer'>
       <a
-        href={useBaseUrl(registerURL)}
+        href={theURL}
         className='registerButton'
       >
-        ALAA 2024 Conference Registration
+        {props.buttonText}
       </a>
     </div>
   )

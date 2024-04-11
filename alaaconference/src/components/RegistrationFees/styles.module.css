@@ -1,0 +1,42 @@
+.RFfeatures {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.RFfeatureSvg {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.RFfpTitle {
+  font-size: var(--ifm-h3-font-size);
+  color: var(--ifm-headig-color);
+  font-family: var(--ifm-heading-font-family);
+  font-weight: var(--ifm-heading-font-weight);
+  line-height: var(--ifm-heading-line-height);
+  margin: var(--ifm-heading-margin-top) 0 var(--ifm-heading-margin-bottom) 0;
+}
+
+/* Could not get these to work */
+.RFheading {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.RFfeatureGrid {
+  display: grid;
+  grid-template-rows: auto 1fr auto; /* Adjust as needed */
+  gap: 16px; /* Space between rows */
+  height: 100%;
+}
+
+/* If additional styling is needed to ensure the content fills the cell properly */
+.RFgridItem {
+  display: flex;
+  flex-direction: column;
+}
+

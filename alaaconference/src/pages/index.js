@@ -36,7 +36,7 @@ export default function Home() {
       description="Australasian Legal Academics Association Conference 2024 <head />">
       <HomepageHeader />
       <main>
-        <RegisterButton />
+        <RegisterButton registerURL='/registration' buttonText='ALAA 2024 Conference Registration' />
         <HomepageFeatures />
         <HomepageSponsors />
       </main>
