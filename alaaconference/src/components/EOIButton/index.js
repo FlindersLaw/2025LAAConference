@@ -26,7 +26,7 @@ export function RegisterButton(props) {
   // console.log("theURL:", theURL);
   let theURL = useBaseUrl(props.registerURL);
   return (
-    <div className='buttonContainer'>
+    <div className='buttonContainer' style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh', width: '100%'}}>
       <a
         href={theURL}
         className='registerButton'
