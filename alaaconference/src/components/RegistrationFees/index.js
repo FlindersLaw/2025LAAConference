@@ -4,16 +4,16 @@ import styles from './styles.module.css';
 import './RegistrationFees.css';
 import {EOIButton, RegisterButton} from '@site/src/components/EOIButton';
 
-// export const PaymentGatewayURL = 'https://pay.flinders.edu.au/BGL024';
-export const PaymentGatewayURL = '/registration_closed';
+export const PaymentGatewayURL = 'https://pay.flinders.edu.au/BGL024';
+// export const PaymentGatewayURL = '/registration_closed';
 
 const FeeInfoList = [
   {
-    title: 'ECA Day (3 July 2024)',
+    title: 'Early Career Academics Day (3 July 2024)',
     description: (
       <>
         <p>
-          ECA Day registration is free for early career academics
+          Early Career Academics (<strong>ECA</strong>) Day registration is free for early career academics
           (less than 5 years).
         </p>
         <p>
@@ -49,16 +49,22 @@ const FeeInfoList = [
     title: 'Gala Dinner',
     description: (
       <>
+      <table className='registrationFeeTable'>
+          <tr>
+              <th>Gala Dinner</th>
+              <td>$140.00</td>
+          </tr>
+      </table>
       <p>
-      The Gala dinner will be held on the evening of <strong>4&nbsp;July 2024</strong> at the
-      Adelaide Convention Centre.
+        The Gala dinner will be held on the evening of <strong>4&nbsp;July 2024</strong> at the
+        Adelaide Convention Centre.
       </p>
       <p>
         If you have not yet registered for the 
         Gala Dinner please register below.
       </p>
       <p>
-        You will need to register any plus one separately.
+        You are welcome to bring a partner to the Gala Dinner but you will need to register your partner separately.
       </p>
       </>
     ),

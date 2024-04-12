@@ -118,7 +118,12 @@ const config = {
           },
           {
             title: 'Conference hosted by Flinders Law',
-            items: [],
+            items: [
+              {
+                // Hard push from the left to manually align under title
+                html: '<div style="margin-left: 57px; margin-top: 40px;"><img src="img/Flinders_University_Logo_Horizontal_RGB_Stroked.png" style="height: 50px"></div>',
+              },
+            ],
           },
           {
             title: 'Contact',

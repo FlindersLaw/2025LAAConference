@@ -18,11 +18,12 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">
-          Hosted at <a href='flinders_ncc'>Flinders University's New City Campus!</a>
-        </p>
-        <p className="hero__subtitle">
           {siteConfig.tagline}
         </p>
+        <p className="hero__subtitle">
+          Hosted at <a href='flinders_ncc'>Flinders University's New City Campus!</a>
+        </p>
+        <img src="img/Flinders_University_Logo_Horizontal_RGB_Master.png" style={{height: '50px'}}></img>
       </div>
     </header>
   );
