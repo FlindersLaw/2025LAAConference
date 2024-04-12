@@ -25,7 +25,7 @@ const FeeInfoList = [
     ),
   },
   {
-    title: 'Conference Registration',
+    title: 'ALAA Conference (4 & 5 July 2024)',
     description: (
       <>
       <table className='registrationFeeTable'>
@@ -40,7 +40,7 @@ const FeeInfoList = [
       </table>
       <p>
       Early bird registration is now open and closes
-      on <strong>17 May</strong>.
+      on <strong>17&nbsp;May 2024</strong>.
       </p>
       </>
     ),
@@ -50,7 +50,7 @@ const FeeInfoList = [
     description: (
       <>
       <p>
-      The Gala dinner will be held on the evening of <strong>4 July</strong> at the
+      The Gala dinner will be held on the evening of <strong>4&nbsp;July 2024</strong> at the
       Adelaide Convention Centre.
       </p>
       <p>
@@ -58,7 +58,7 @@ const FeeInfoList = [
         Gala Dinner please register below.
       </p>
       <p>
-        You will need to register any plu one separately.
+        You will need to register any plus one separately.
       </p>
       </>
     ),
