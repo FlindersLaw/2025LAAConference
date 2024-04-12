@@ -93,8 +93,6 @@ const config = {
             to: '/docs',
             position: 'left'
           },
-          /* Not using this (yet)
-          {to: '/blog', label: 'Blog', position: 'left'}, */
           {
             type: 'html',
             position: 'right',
@@ -105,47 +103,41 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          /*{
-            title: 'Registration',
+          {
+            title: 'About Flinders University',
             items: [
               {
-                label: 'Register here',
-                href: 'https://tbc.com'
-              },
-            ],
-          },*/
-          /* {
-            title: 'Conference Information',
-            items: [
-              {
-                label: 'Program',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Our New City Campus',
+                href: 'https://www.flinders.edu.au/campus/festival-plaza',
               },
               {
-                label: 'Conference',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'College of Business, Government and Law',
+                href: 'https://flinders.edu.au/cbgl',
               },
             ],
-          },*/
-          /* {
+          },
+          {
+            title: 'Conference hosted by Flinders Law',
+            items: [],
+          },
+          {
             title: 'Contact',
             items: [
               {
                 label: 'Contact ALAA',
-                to: '/blog',
+                href: 'mailto:admin@alaa.asn.au',
               },
               {
                 label: 'Contact Flinders Law',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'mailto:bglenquiries@flinders.edu.au',
               },
               {
-                label: 'ALAA Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Contact the Conference Project Team',
+                href: 'mailto:0cb050e2.FLINDERS.onmicrosoft.com@au.teams.ms',
               },
             ],
-          }, */
+          },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Flinders University. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
