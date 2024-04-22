@@ -127,6 +127,134 @@ global CSS file.  This was RFHeading */
   max-width: 30%; /* Keeps image from taking more than 30% of space */
 }
 
+.ProgramDayTitle {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  border: 0;
+  border-bottom: 1px solid var(--flinders-blue);
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+/* Styles for the main ProgramLineItem container */
+.ProgramLineItem {
+  display: flex; /* Enables flexbox layout */
+  max-width: 100%; /* Ensures the div does not exceed the width of its parent */
+  margin: 0 auto;
+  text-align: left;
+  /* border: 1px solid; */
+}
+.ProgramLineItem:not(last-child) {
+  border-bottom: none;
+}
+.ProgramLineItem:last-child {
+  border-bottom: 1px solid;
+}
+
+.ProgramLineItem .cpItems {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-width: 0;
+}
+
+/* .ProgramLineItem .cpFlexStack {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  margin: 0 auto;
+} */
+
+.ProgramLineItem .cpTime {
+  width: 100px;
+  text-align: left;
+  font-weight: bold;
+  border-top: 1px solid;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  padding-left: 10px;
+  background-color: honeydew ;
+}
+
+.ProgramLineItem .cpSingleEntry {
+  flex-grow: 1; 
+  text-align: left;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+}
+.ProgramLineItem .cpSingleEntry:last-child {
+  border-bottom: none;
+}
+
+.ProgramLineItem .cpSessionColumns {
+  display: flex;
+}
+
+.ProgramLineItem .cpSessionColumn {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.ProgramLineItem .cpColumnEntry {
+  padding: 5px;
+  border-bottom: 1px solid;
+  border-right: 1px solid;
+}
+.ProgramLineItem .cpColumnEntry:last-child {
+  border-bottom: none;
+}
+.cpRoom {
+  font-size: 0.8em;
+  font-weight: bold;
+  text-align: center;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  background-color: aliceblue;
+}
+
+/* Give title entries a special colour and different padding */
+.titleEntry {
+  background-color: var(--flinders-yellow-hover);
+}
+.galaDinnerEntry {
+  background-color: azure;
+  height: 300px;
+}
+.breakEntry {
+  background-color: honeydew;
+}
+
+.cpBigTitleText p {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.cpTitleText p {
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+.cpLittleTitleText p {
+  font-size: 0.8em;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
+.cpLevel2Text p {
+  font-size: 0.8em;
+  padding-top: 0px;
+  margin: 0;
+}
+
+.cpLevel3Text {
+  font-size: 0.6em;
+}
+
 /* Adjustments for mobile screens */
 @media (max-width: 768px) {
   .alternating-section {
@@ -139,4 +267,38 @@ global CSS file.  This was RFHeading */
     flex: 1 1 100%;
     max-width: 100%;
   }
+
+  .ProgramDayTitle {
+    text-align: center;
+  }
+
+  .ProgramLineItem .cpSessionColumns {
+    flex-direction: column;
+  }
+
+  .ProgramLineItem .cpColumnEntry {
+    border-top: 1px solid;
+  }
+  .ProgramLineItem .cpColumnEntry:last-child {
+    border-top: none;
+    border-bottom: 1px solid;
+  }
+  .cpRoom {
+    border-bottom: none;
+  }
+
+  .ProgramLineItem .cpFlexStack .cpStackedEntry {
+    flex: 1 0 100%;
+  }
+
+  .ProgramLineItem .cpTime {
+    flex: 0 0 100px; /* Keeps the cpTime div at a fixed width */
+  }
+
+  .cpSingleEntry:last-child {
+    border-bottom: none; /* No bottom border for the last entry */
+  }
 }
+
+
+
