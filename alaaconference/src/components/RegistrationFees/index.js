@@ -13,10 +13,6 @@ const FeeInfoList = [
     description: (
       <>
         <p>
-          Early Career Academics (<strong>ECA</strong>) Day registration is free for early career academics
-          (less than 5 years).
-        </p>
-        <p>
           If you are not an early career academic you 
           may still register for the ECA day but you must also register for 
           the Conference.
