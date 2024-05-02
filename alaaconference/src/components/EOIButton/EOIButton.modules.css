@@ -1,0 +1,96 @@
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+}
+
+.interestButton {
+    background-color: rgb(1,28,44);
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+}
+
+.interestButton:hover {
+    background-color: rgb(155, 218, 255);
+    color: #000;
+    text-decoration: none;
+}
+
+.registerButton {
+    background-color: var(--flinders-yellow);
+    color: var(--flinders-blue);
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+}
+
+.registerButton:hover {
+    background-color: rgb(155, 218, 255);
+    color: var(--flinders-blue);
+    text-decoration: none;
+}
+
+/* The button container for learnButtons should be smaller */
+.learnButtonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.learnButton {
+    background-color: var(--flinders-blue);
+    color: var(--flinders-yellow-hover);
+    padding: 2px 10px;
+    padding-bottom: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.6em;
+    border-radius: 25px;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+}
+
+.learnButton:hover {
+    background-color: rgb(155, 218, 255);
+    color: var(--flinders-blue);
+    text-decoration: none;
+}
+
+/* The button container for ProgramHeadingButtons looks more or less the same as
+   a LearnButton but slightly bigger */
+.programHeadingButtonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.programHeadingButton {
+    background-color: var(--flinders-blue);
+    color: var(--flinders-yellow-hover);
+    padding: 2px 10px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9em;
+    border-radius: 25px;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+}
+
+.programHeadingButton:hover {
+    background-color: rgb(155, 218, 255);
+    color: var(--flinders-blue);
+    text-decoration: none;
+}

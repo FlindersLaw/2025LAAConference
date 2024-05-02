@@ -1,0 +1,16 @@
+.csEntry {
+  padding: 5px;
+}
+
+.csEntry:last-child {
+  border-bottom: none;
+}
+
+.csEntryTitle {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.csEntryPresenters {
+  font-size: 0.6em;
+}

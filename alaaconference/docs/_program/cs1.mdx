@@ -1,3 +1,6 @@
+import {ConcurrentSession} from '@site/src/components/ConcurrentSession';
+import {LearnButton} from '@site/src/components/EOIButton';
+
 <div className="ProgramLineItem">
     <div className="cpTime">
         11:15
@@ -8,58 +11,69 @@
             Concurrent session 1
             </div>
         </div>
-        <div className="cpSessionColumns">
-            <div className="cpSessionColumn">
-                <div className="cpRoom">
-                    Room TBC
-                </div>
-                <div className="cpColumnEntry">
-                    1A
-                </div>
-                <div className="cpColumnEntry">
-                    2A
-                </div>
-                <div className="cpColumnEntry">
-                    3A
-                </div>
-                <div className="cpColumnEntry">
-                    4A
-                </div>
-            </div>
-            <div className="cpSessionColumn">
-                <div className="cpRoom">
-                    Room TBC
-                </div>
-                <div className="cpColumnEntry">
-                    1B
-                </div>
-                <div className="cpColumnEntry">
-                    2B
-                </div>
-                <div className="cpColumnEntry">
-                    3B
-                </div>
-                <div className="cpColumnEntry">
-                    4B
-                </div>
-            </div>
-            <div className="cpSessionColumn">
-                <div className="cpRoom">
-                    Room TBC
-                </div>
-                <div className="cpColumnEntry">
-                    1C
-                </div>
-                <div className="cpColumnEntry">
-                    2C
-                </div>
-                <div className="cpColumnEntry">
-                    3C
-                </div>
-                <div className="cpColumnEntry">
-                    4C
-                </div>
-            </div>
-        </div>
     </div>
+</div>
+<div className="ProgramLineItem">
+    <table className='cpTable'>
+        <tr>
+            <th>
+                Room 1 TBC
+            </th>
+            <th>
+                Room 2 TBC
+            </th>
+            <th>
+                Room 3 TBC
+            </th>
+        </tr>
+        <tr>
+            <ConcurrentSession 
+                title='Integrating Emerging Technology and Property Law Doctrine in Undergraduate and Postgraduate Property and Trusts Law Teaching'
+                presenters='Brendan Grigg' />
+            <ConcurrentSession 
+                title='Australian Law Schools, Collaborative Practice and the Future of Lawyering'
+                presenters='Charissa Tarzia, Flinders University' />
+            <ConcurrentSession 
+                title='A very short title'
+                    presenters='Cornelia Koch, University of Adelaide' />
+        </tr>
+        <tr>
+            <td className='lbCell'><LearnButton learnURL="someting" /></td>
+            <td><LearnButton learnURL="someting" /></td>
+            <td><LearnButton learnURL="someting" /></td>
+        </tr>
+        <tr>
+            <td>
+                    2A
+            </td>
+            <td>
+                    2B
+            </td>
+            <td>
+                    2c
+            </td>
+        </tr>
+        <tr>
+            <td>
+                    3A
+            </td>
+            <td>
+                    3B
+            </td>
+            <td>
+                    3c
+            </td>
+        </tr>
+        <tr>
+            <td>
+                    4A
+            </td>
+            <td>
+                    4B
+            </td>
+            <td>
+                    4c
+            </td>
+        </tr>
+    </table>
 </div>

@@ -1,0 +1,19 @@
+.ProgramHeading {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  border: 0;
+  margin-bottom: 10px;
+  border-bottom: 1px solid var(--flinders-blue);
+}
+
+.ProgramHeadingDay {
+    font-size: 1.5em;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.ProgramHeadingButton {
+    margin-left: auto;
+}
