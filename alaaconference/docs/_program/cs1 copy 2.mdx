@@ -1,4 +1,4 @@
-import {ConcurrentSession, CSRow, DisplaySessionsWithIDs} from '@site/src/components/ConcurrentSession';
+import {ConcurrentSession, CSRow} from '@site/src/components/ConcurrentSession';
 import {LearnButton} from '@site/src/components/EOIButton';
 
 <div className="ProgramLineItem">
@@ -26,7 +26,28 @@ import {LearnButton} from '@site/src/components/EOIButton';
                 Room 3 TBC
             </th>
         </tr>
-        <DisplaySessionsWithIDs sessionIDList={['1', '2']} />
+        <CSRow sessions={[
+            { 
+                title: 'Integrating Emerging Technology and Property Law Doctrine in Undergraduate and Postgraduate Property and Trusts Law Teaching',
+                presenters: 'Brendan Grigg, Flinders University',
+                learnURL: 'TBC1'
+            },
+            { 
+                title: 'Australian Law Schools, Collaborative Practice and the Future of Lawyering',
+                presenters:'Charissa Tarzia',
+                learnURL: 'TBC2',
+            },
+            { 
+                title: 'A shortish title',
+                presenters: 'Cornelia Koch',
+                learnURL: 'TBC2'
+            },
+        ]} />
+        <tr>
+            <td className='lbCell'><LearnButton learnURL="someting" /></td>
+            <td><LearnButton learnURL="someting" /></td>
+            <td><LearnButton learnURL="someting" /></td>
+        </tr>
         <tr>
             <td>
                     2A
@@ -62,3 +83,4 @@ import {LearnButton} from '@site/src/components/EOIButton';
         </tr>
     </table>
 </div>
+

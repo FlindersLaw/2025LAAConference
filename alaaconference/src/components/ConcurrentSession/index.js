@@ -3,13 +3,14 @@
 import React from "react";
 import { LearnButton } from "@site/src/components/EOIButton";
 import styles from './ConcurrentSession.modules.css';
+import {sessionData, sessionStreams, emptyKey} from './sessionData';
 
-export function ConcurrentSession({title, presenters}) {
+export function ConcurrentSession({sessionID, title, presenters}) {
     // Both title and presenters are strings
     return (
         <td>
             <div className={styles.csEntryTitle}>
-                {title}
+                {sessionID}: {title}
             </div>
             <div className={styles.csEntryPresenters}>
                 {presenters}
@@ -28,25 +29,21 @@ export function ConcurrentSession({title, presenters}) {
 // - session presenter(s)
 // The second row contains a link to the padlet for this session
 
-export function CSRow({sessions}) {
-    // sessions should contain:
-    // - title
-    // - presenters
-    // - abstractURL
-    // - learnURL
+export function CSRow({sessionKeys}) {
     return (
         <>
             <tr>
-                {sessions.map((session, index) => (
+                {sessionKeys.map((sKey, index) => (
                     <td>
                         <ConcurrentSession
-                            title={session.title}
-                            presenters={session.presenters} />
+                            sessionID={sKey.substring(2)}
+                            title={sessionData[sKey].title}
+                            presenters={sessionData[sKey].presenters} />
                     </td>
                 ))}
             </tr>
             <tr>
-                    {sessions.map((session, index) => (
+                    {sessionKeys.map((session, index) => (
                         <td>
                             <LearnButton learnURL={session.learnURL} />
                         </td>
@@ -56,15 +53,28 @@ export function CSRow({sessions}) {
     )
 }
 
-const morning_session = ['1', '2', '3', '4'];
-const streams = ['A', 'B', 'C'];
+export function DisplaySessionsWithIDs({sessionIDList}) {
+    // sessionIDList should be eg ['1', '2', '3', '4'] 
+    // Assume the streams are always ['A', 'B', 'C']
+    // Have a sanity check in case we can't find the key
 
-export function DisplayConcurrentSession() {
-    const display_sessions = []
-    streams.forEach(stream => {
-
-
-    })
-
+    const sessionRows = sessionIDList.map(sID => {
+        let sessionRow = [];        // Contains the list of sessions to be passed to CSRow()
+        sessionStreams.forEach(key => {
+            let streamKey = `id${sID}${key}`;
+            console.log(streamKey);
+            if ( sessionData[streamKey] ) {
+                sessionRow.push(streamKey);
+            } else {
+                sessionRow.push(emptyKey);
+            }
+        });
+        return <CSRow sessionKeys={sessionRow} key={sID} />
+    });
     
+    return (
+        <>
+            {sessionRows}
+        </>
+    )
 }
