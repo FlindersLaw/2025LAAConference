@@ -4,13 +4,22 @@ import React from "react";
 import { LearnButton } from "@site/src/components/EOIButton";
 import styles from './ConcurrentSession.modules.css';
 import {sessionData, sessionStreams, emptyKey} from './sessionData';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
-export function ConcurrentSession({sessionID, title, presenters}) {
+export function ConcurrentSession({sessionID, title, presenters, abstractURL}) {
     // Both title and presenters are strings
+    const theURL=useBaseUrl(abstractURL)
     return (
         <td>
             <div className={styles.csEntryTitle}>
-                {sessionID}: {title}
+                {sessionID}:
+                <span>
+                    &nbsp;
+                </span>
+
+                <a href={theURL}>
+                    {title}
+                </a>
             </div>
             <div className={styles.csEntryPresenters}>
                 {presenters}
@@ -38,7 +47,8 @@ export function CSRow({sessionKeys}) {
                         <ConcurrentSession
                             sessionID={sKey.substring(2)}
                             title={sessionData[sKey].title}
-                            presenters={sessionData[sKey].presenters} />
+                            presenters={sessionData[sKey].presenters}
+                            abstractURL={sessionData[sKey].abstractURL} />
                     </td>
                 ))}
             </tr>
