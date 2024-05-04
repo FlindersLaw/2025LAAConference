@@ -6,7 +6,7 @@ import styles from './ConcurrentSession.modules.css';
 import {sessionData, sessionStreams, emptyKey} from './sessionData';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-export const abstractURLBase = '/docs/abstracts';
+export const abstractURLBase = '/docs/zabstracts';
 
 export function ConcurrentSession({sessionID, title, presenters, abstractURL, learnURL}) {
     // Both title and presenters are strings
