@@ -12,5 +12,28 @@
 }
 
 .csEntryPresenters {
-  font-size: 0.6em;
+  font-size: 0.8em;
+  margin-top: 5px;
+  font-weight: normal;
+}
+
+.csContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.csSession {
+  flex: 1;
+  font-weight: bold;
+}
+/* This is used for the abstracts */
+.csSessionNormal {
+  flex: 1;
+}
+
+.csLearnButton {
+  margin-left: auto;
+  padding-top: 2px;
 }
