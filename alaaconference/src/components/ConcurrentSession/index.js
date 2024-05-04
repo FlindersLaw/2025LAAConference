@@ -54,9 +54,12 @@ export function CSRow({sessionKeys}) {
 
         // Store the key in its proper format
         theSessions[sKey].key = sKey.substring(2).replace('_', '.')
+        // Get the concurrent session number from the key
+        const csNumber = theSessions[sKey].key.split('.')[0];
+        const absNumber = theSessions[sKey].key.split('.')[1];
 
         // Constsruct the AbstractURL
-        const abstractURL = `${abstractURLBase}/${theSessions[sKey].key}`
+        const abstractURL = `${abstractURLBase}/${csNumber}/${absNumber}`
         theSessions[sKey].abstractURL = useBaseUrl(abstractURL);
     })
     return (

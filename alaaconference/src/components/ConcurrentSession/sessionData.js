@@ -251,7 +251,7 @@ export const sessionData = {
     },
     id6_A1 : {
         title: "PANEL: Generative AI and the Courts",
-        presenters: "Joe McIntyre, Anne Carter, Constance Lee, Lisa Parker, University of South Australia",
+        presenters: "Joe McIntyre, Constance Lee, Lisa Parker, University of South Australia, Anne Carter, University of Adelaide",
         learnURL: ''
     },
     id6_A2 : {
@@ -270,7 +270,7 @@ export const sessionData = {
         learnURL: ''
     },
     id6_B2 : {
-        title: "Reimagining International Student Engagement in a Globalised World: Understanding the complex factors impeding international students from accessing institutionally-provided support services, so as to find more effective and inclusive ways to meet their academic, language, professional, social and wellbeing needs",
+        title: "Reimagining International Student Engagement in a Globalised World",
         presenters: "Brenda Tronson, Senior Lecturer, Chantal Bostock, Senior Lecturer, Casey-Lee Hirst, Lecturer, Nicola Kozlina, Lecturer, University of NSW",
         learnURL: ''
     },
