@@ -12,7 +12,7 @@ export function ConcurrentSession({sessionID, title, presenters, abstractURL, le
     // Both title and presenters are strings
     const theURL=useBaseUrl(abstractURL)
     return (
-        <>
+        <div>
             <div className={styles.csContainer}>
                 <div className={styles.csSession}>
                     {sessionID}
@@ -29,7 +29,7 @@ export function ConcurrentSession({sessionID, title, presenters, abstractURL, le
             <div className={styles.csEntryPresenters}>
                 {presenters}
             </div>
-        </>
+        </div>
     )
 
 }
@@ -67,16 +67,12 @@ export function CSRow({sessionKeys}) {
             <tr>
                 {sessionKeys.map((sKey, index) => (
                     <td>
-                        <div className={styles.csContainer}>
-                            <div className={styles.csSession}>
-                                <ConcurrentSession
-                                    sessionID={theSessions[sKey].key}
-                                    title={theSessions[sKey].title}
-                                    presenters={theSessions[sKey].presenters}
-                                    abstractURL={theSessions[sKey].abstractURL}
-                                    learnURL={theSessions[sKey].learnURL} />
-                            </div>
-                        </div>
+                        <ConcurrentSession
+                            sessionID={theSessions[sKey].key}
+                            title={theSessions[sKey].title}
+                            presenters={theSessions[sKey].presenters}
+                            abstractURL={theSessions[sKey].abstractURL}
+                            learnURL={theSessions[sKey].learnURL} />
                     </td>
                 ))}
             </tr>
