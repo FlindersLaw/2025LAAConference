@@ -8,12 +8,18 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 export const abstractURLBase = '/docs/zabstracts';
 
-export function ConcurrentSession({sessionID, title, presenters, abstractURL, learnURL}) {
+export function ConcurrentSession({sessionID, title, presenters, abstractURL, learnURL, noAbstract}) {
     // Both title and presenters are strings
     const theURL=useBaseUrl(abstractURL)
     let displayLearnButton = '';
     if ( learnURL != '' ) {
         displayLearnButton = <LearnButton learnURL={learnURL} />
+    }
+    let displayTitle =  <a href={theURL}>
+                            {title}
+                        </a>
+    if ( noAbstract ) {
+        displayTitle = title;
     }
     return (
         <div>
@@ -26,9 +32,7 @@ export function ConcurrentSession({sessionID, title, presenters, abstractURL, le
                 </div>
             </div>
             <div className={styles.csEntryTitle}>
-                <a href={theURL}>
-                    {title}
-                </a>
+                {displayTitle}
             </div>
             <div className={styles.csEntryPresenters}>
                 {presenters}
@@ -55,6 +59,7 @@ export function CSRow({sessionKeys}) {
         theSessions[sKey].title = sessionData[sKey].title;
         theSessions[sKey].presenters = sessionData[sKey].presenters;
         theSessions[sKey].learnURL = sessionData[sKey].learnURL;
+        theSessions[sKey].noAbstract = sessionData[sKey].noAbstract;
 
         // Store the key in its proper format
         theSessions[sKey].key = sKey.substring(2).replace('_', '.')
@@ -65,6 +70,7 @@ export function CSRow({sessionKeys}) {
         // Constsruct the AbstractURL
         const abstractURL = `${abstractURLBase}/${csNumber}/${absNumber}`
         theSessions[sKey].abstractURL = useBaseUrl(abstractURL);
+        console.log("theSessions", theSessions);
     })
     return (
         <>
@@ -76,7 +82,8 @@ export function CSRow({sessionKeys}) {
                             title={theSessions[sKey].title}
                             presenters={theSessions[sKey].presenters}
                             abstractURL={theSessions[sKey].abstractURL}
-                            learnURL={theSessions[sKey].learnURL} />
+                            learnURL={theSessions[sKey].learnURL}
+                            noAbstract = {theSessions[sKey].noAbstract} />
                     </td>
                 ))}
             </tr>

@@ -4,9 +4,10 @@
 // id1A : {
 //     title
 //     presenters
-//     abstractURL
 //     learnURL
+//     noAbstract
 // }
+// If noAbstract is set then the title is not displayed as a link
 
 // We assume we only have three parallel streams.
 // Note: the table that displays the program also assumes this, so 
@@ -20,37 +21,32 @@ export const sessionData = {
     idNoSession : {
         title: 'No session programmed',
         presenters: '',
-        abstractURL: '',
+        noAbstract: true,
         learnURL: '',
     },
     id1_A1 : {
         title: 'Automating Empirical Legal Research: the Case of British and Australian Judgments',
         presenters: 'Ben Chen',
-        abstractURL: '/docs/abstracts/1a',
         learnURL: ''
     },
     id1_A2 : {
         title: 'Enhancing Negotiation Skills in Legal Education: Harnessing Artificial Intelligence through a Chat Bot Approach',
         presenters: 'Dr Tammy Johnson',
-        abstractURL: '/docs/abstracts/2a',
         learnURL: ''
     },
     id1_A3 : {
         title: 'Building GenAI into Law Assessments: How do students use genAI when given the chance?',
         presenters: 'Samantha Kontra, Senior Lecturer, Flinders University',
-        abstractURL: 'tbc',
         learnURL: ''
     },
     id1_A4 : {
         title: 'Magic Defeat Magic? - An examination about AI plagiarism and the impact on legal education and research',
         presenters: 'Qinqing Xu, Lecturer (Assistant Professor), University of Manchester, UK',
-        abstractURL: 'tbc',
         learnURL: ''
     },
     id1_B1 : {
         title: 'One Legal Future Post-Referendum: South Australia’s First Nations Voice',
         presenters: 'Dr Anna Olijnyk, Cornelia Koch, Madeleine Perrett',
-        abstractURL: '/docs/abstracts/1b',
         learnURL: ''
     },
     id1_B2 : {
@@ -163,6 +159,11 @@ export const sessionData = {
         presenters: "Professor Tania Leiman, Dean of Law, Flinders University",
         learnURL: ''
     },
+    id3_B2 : {
+        title: 'No session',
+        noAbstract: true,
+        learnURL: ''
+    },
     id3_C1 : {
         title: "PANEL: Civics Educators? Reflections on the Referendum on the Role and Limits of Legal Academics in Public Education",
         presenters: "Joe McIntyre, Melissa Castan, Catherine Renshaw, Cornelia Koch, Eddy Synott",
@@ -170,8 +171,10 @@ export const sessionData = {
     },
     id3_C2 : {
         title: "PANEL (continued)",
+        noAbstract: true,
         presenters: "",
-        learnURL: ''
+        learnURL: '',
+        noAbstract: true
     },
     id4_A1 : {
         title: "A Conversational AI: A Case Study on AI-Assisted Learning in a Criminal Law Subject",
@@ -206,6 +209,7 @@ export const sessionData = {
     },
     id5_A3 : {
         title: "PANEL: (continued)",
+        noAbstract: true,
         presenters: "",
         learnURL: ''
     },
@@ -256,6 +260,7 @@ export const sessionData = {
     },
     id6_A2 : {
         title: "PANEL (continued)",
+        noAbstract: true,
         presenters: "",
         learnURL: ''
     },
