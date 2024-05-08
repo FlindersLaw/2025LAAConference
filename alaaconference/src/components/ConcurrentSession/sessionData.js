@@ -27,126 +27,126 @@ export const sessionData = {
         title: 'Automating Empirical Legal Research: the Case of British and Australian Judgments',
         presenters: 'Ben Chen',
         abstractURL: '/docs/abstracts/1a',
-        learnURL: 'TBC1'
+        learnURL: ''
     },
     id1_A2 : {
         title: 'Enhancing Negotiation Skills in Legal Education: Harnessing Artificial Intelligence through a Chat Bot Approach',
         presenters: 'Dr Tammy Johnson',
         abstractURL: '/docs/abstracts/2a',
-        learnURL: 'TBC2'
+        learnURL: ''
     },
     id1_A3 : {
         title: 'Building GenAI into Law Assessments: How do students use genAI when given the chance?',
         presenters: 'Samantha Kontra, Senior Lecturer, Flinders University',
         abstractURL: 'tbc',
-        learnURL: 'TBC3'
+        learnURL: ''
     },
     id1_A4 : {
         title: 'Magic Defeat Magic? - An examination about AI plagiarism and the impact on legal education and research',
         presenters: 'Qinqing Xu, Lecturer (Assistant Professor), University of Manchester, UK',
         abstractURL: 'tbc',
-        learnURL: 'TBC3'
+        learnURL: ''
     },
     id1_B1 : {
         title: 'One Legal Future Post-Referendum: South Australia’s First Nations Voice',
         presenters: 'Dr Anna Olijnyk, Cornelia Koch, Madeleine Perrett',
         abstractURL: '/docs/abstracts/1b',
-        learnURL: 'TBC2'
+        learnURL: ''
     },
     id1_B2 : {
         title: 'Ngara: Embedding truth-telling about the legal system in the Sydney Law School curriculum',
         presenters: 'Dr Fady Aoun, Associate Professor, Elisa Arcioni, Dr Louise Boon-Kuo, Louisa Di Bartolomeo, University of Sydney',
-        learnURL: 'TBC2'
+        learnURL: ''
     },
     id1_B3 : {
         title: "Embedding First Nations perspectives into the law curriculum, 'what do you do when it's all left up to you?'",
         presenters: "Dr Katie O'Bryan, Monash University",
-        learnURL: 'TBC3'
+        learnURL: ''
     },
     id1_B4 : {
         title: "'Zero tolerance to racism' - building law teachers' anti-racism capacities",
         presenters: "Jennifer Nielsen",
-        learnURL: 'TBC3'
+        learnURL: ''
     },
     id1_C1 : {
         title: "Developing Effective Law to Ban Planned Obsolescence in Goods?",
         presenters: "Dr Trish O'Sullivan, Senior Lecturer, Massey University, New Zealand",
-        learnURL: 'TBC3'
+        learnURL: ''
     },
     id1_C2 : {
         title: "Environmental Law and Earth's Futures: Discussing the role of legal scholarship and education in addressing environmental challenges by promoting precautionary risk management in environmental law pedagogy.",
         presenters: "Rhett Martin",
-        learnURL: 'TBC3'
+        learnURL: ''
     },
     id1_C3 : {
         title: "Sustainable Green Economy in the Era of Climate Change between Challenges and Hopes from Legal Perspective",
         presenters: "Ahmad Sabirin, Universitas Islam Internatsional, Indonesia",
-        learnURL: 'TBC3'
+        learnURL: ''
     },
     id1_C4 : {
         title: 'International Enforcement of Environmental Laws via Private Law Applications: "Greenwashing downunder"',
         presenters: "Michael Adams",
-        learnURL: 'TBC3'
+        learnURL: ''
     },
     id2_A1 : {
         title: "AI + Legal Education: a new 'Diamond Age' or a threat to rights and values?",
         presenters: "Rob Chalmers, Senior Lecturer, Flinders University",
-        learnURL: 'TBC3'
+        learnURL: ''
     },
     id2_A2 : {
         title: "The use of AI in Legal Education: Superhero or Villain?",
         presenters: "Linda Telai, Victoria University",
-        learnURL: 'TBC3'
+        learnURL: ''
     },
     id2_A3 : {
         title: "\"I don't know why I'm doing this\": Teaching tech skills to law students",
         presenters: "Mark Ferraretto, Senior Lecturer, Professor Tania Leiman, Dean of Law, Dr James Scheibner, Lecturer, Flinders University",
-        learnURL: 'TBC3'
+        learnURL: ''
     },
     id2_A4 : {
         title: "Dissecting Factors Hindering the Establishment and Multiplicity of Digital Business Models of Law Practice in Kenya",
         presenters: "Consolata Maitha, Tutorial Fellow, Mount Kenya University",
-        learnURL: 'TBC3'
+        learnURL: ''
     },
     id2_B1 : {
         title: "The Honest Politician's Guide to Crime Control, updated",
         presenters: "Rick Sarre, University of South Australia",
-        learnURL: 'TBC3'
+        learnURL: ''
     },
     id2_B2 : {
         title: "An Interdisciplinary Approach to Understanding Assaults on Police: Enriching Criminal Laws and Sentencing Policy",
         presenters: "Kelley Burton, Kelly Hine, Catherine Creamer, Dimitra Lattas",
-        learnURL: 'TBC3'
+        learnURL: ''
     },
     id2_B3 : {
         title: "Bringing sexual offence law back into the classroom:  an argument for a trauma-informed curriculum to better equip law graduates for practice",
         presenters: "Emma Henderson, Kirsty Duncanson, La Trobe University",
-        learnURL: 'TBC3'
+        learnURL: ''
     },
     id2_B4 : {
         title: "Trauma-Informed Practice and the Criminal Trial: A Conceptual Framework for the 'Trauma-Informed Trial'",
         presenters: "Sarah Kendall",
-        learnURL: 'TBC3'
+        learnURL: ''
     },
     id2_C1 : {
         title: "Indigenous law in climate-change litigation - reclamation of the law as a tool for indigenous legal assertions",
         presenters: "Dr Adrienne Paul, University of Canterbury, Metiria Stanton Turei, University of Otago",
-        learnURL: 'TBC3'
+        learnURL: ''
     },
     id2_C2 : {
         title: "Developments, Opportunities, and Complexities in Global South Scholarship on Climate Litigation: Literature review of scholarship by authors based in or identifying from the Global South",
         presenters: "Jemima Roe",
-        learnURL: 'TBC3'
+        learnURL: ''
     },
     id2_C3 : {
         title: "Bridging the Gap: Integrating Engineering, Law, and Indigenous Self-Determination in Infrastructure Development",
         presenters: "Rachel Evans, Lecturer, University of Cantebury",
-        learnURL: 'TBC3'
+        learnURL: ''
     },
     id2_C4 : {
         title: "Interdisciplinary Relations of Law and Ethnology on the Issue of Indigenous Ethnic Group Recognition: A Case Study of the Taiwan Constitutional Court’s Judgment No 17 of 2022",
         presenters: "Chou Yu-Jie, Dr Chou Shih-Huang",
-        learnURL: 'TBC3'
+        learnURL: ''
     },
     id3_A1 : {
         title: "Technology and Law: Evolving Paradigms affecting the Legal Research Process?",
@@ -181,7 +181,7 @@ export const sessionData = {
     id4_A2 : {
         title: "The Future Life of a Professional Law Academic in Australia: What to Think About Now",
         presenters: "Dr Louise Parsons, Bond University",
-        learnURL: 'TBC3'
+        learnURL: ''
     },
     id4_B1 : {
         title: "Teaching legal ideas to the national security community",
@@ -197,12 +197,12 @@ export const sessionData = {
     id5_A1 : {
         title: "A Voyage Around John Merryman and the Development of Modern Legal Education - ‘Through legal education the legal culture is transferred from generation to generation’",
         presenters: "Emeritus Professor David Barker AM, University of Technology Sydney",
-        learnURL: 'TBC3'
+        learnURL: ''
     },
     id5_A2 : {
         title: "PANEL: Becoming a Climate Conscious Lawyer - a grass roots approach to changing legal education",
         presenters: "Julia Dehm, Kate Galloway, Nicole Graham, Margaret Davies",
-        learnURL: 'TBC3'
+        learnURL: ''
     },
     id5_A3 : {
         title: "PANEL: (continued)",
@@ -212,37 +212,37 @@ export const sessionData = {
     id5_B1 : {
         title: "Law Schools as Agents of Change",
         presenters: "Indrani Bandyopadhyay, Australian Catholic University",
-        learnURL: 'TBC3'
+        learnURL: ''
     },
     id5_B2 : {
         title: "Australian Law Schools, Collaborative Practice and the Future of Lawyering",
         presenters: "Charissa Tarzia, Lecturer, Flinders University",
-        learnURL: 'TBC3'
+        learnURL: ''
     },
     id5_B3 : {
         title: "The Scholarship of Family Law: Essential learning for compassionate and socially aware lawyers",
         presenters: "Dr Michelle Fernando, Senior Lecturer, University of South Australia",
-        learnURL: 'TBC3'
+        learnURL: ''
     },
     id4_B2 : {
         title: "So What’s Next? Enhancing the Employability of Law Students",
         presenters: "Professor Noeleen McNamara, Associate Professor Kerstin Braun, University of Southern Queensland",
-        learnURL: 'TBC3'
+        learnURL: ''
     },
     id5_C1 : {
         title: "Exploring the (regulatory) space",
         presenters: "Peta Spender, Australian National University",
-        learnURL: 'TBC3'
+        learnURL: ''
     },
     id5_C2 : {
         title: "Globalization and private law: Impact of globalization on the development of private law through the example of mass transactions",
         presenters: "Kseniia Tatarkina, Research Assistant, Helmut Schmidt University",
-        learnURL: 'TBC3'
+        learnURL: ''
     },
     id5_C3 : {
         title: "Navigating the Nexus: Colonisation, Globalisation, and the Teaching of International Investment Law",
         presenters: "Dr Umair Ghori, Associate Professor, Bond University",
-        learnURL: 'TBC3'
+        learnURL: ''
     },
     id4_C2 : {
         title: "Integrating Emerging Technology and Property Law Doctrine in Undergraduate and Postgraduate Property and Trusts Law Teaching",

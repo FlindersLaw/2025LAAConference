@@ -11,6 +11,10 @@ export const abstractURLBase = '/docs/zabstracts';
 export function ConcurrentSession({sessionID, title, presenters, abstractURL, learnURL}) {
     // Both title and presenters are strings
     const theURL=useBaseUrl(abstractURL)
+    let displayLearnButton = '';
+    if ( learnURL != '' ) {
+        displayLearnButton = <LearnButton learnURL={learnURL} />
+    }
     return (
         <div>
             <div className={styles.csContainer}>
@@ -18,7 +22,7 @@ export function ConcurrentSession({sessionID, title, presenters, abstractURL, le
                     {sessionID}
                 </div>
                 <div className={styles.csLearnButton}>
-                    <LearnButton learnURL={learnURL} />
+                    {displayLearnButton}
                 </div>
             </div>
             <div className={styles.csEntryTitle}>
