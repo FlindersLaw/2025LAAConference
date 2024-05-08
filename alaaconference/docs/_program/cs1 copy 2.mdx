@@ -1,0 +1,86 @@
+import {ConcurrentSession, CSRow} from '@site/src/components/ConcurrentSession';
+import {LearnButton} from '@site/src/components/EOIButton';
+
+<div className="ProgramLineItem">
+    <div className="cpTime">
+        11:15
+    </div>
+    <div className="cpItems">
+        <div className="cpSingleEntry titleEntry">
+            <div className="cpBigTitleText">
+            Concurrent session 1
+            </div>
+        </div>
+    </div>
+</div>
+<div className="ProgramLineItem">
+    <table className='cpTable'>
+        <tr>
+            <th>
+                Room 1 TBC
+            </th>
+            <th>
+                Room 2 TBC
+            </th>
+            <th>
+                Room 3 TBC
+            </th>
+        </tr>
+        <CSRow sessions={[
+            { 
+                title: 'Integrating Emerging Technology and Property Law Doctrine in Undergraduate and Postgraduate Property and Trusts Law Teaching',
+                presenters: 'Brendan Grigg, Flinders University',
+                learnURL: 'TBC1'
+            },
+            { 
+                title: 'Australian Law Schools, Collaborative Practice and the Future of Lawyering',
+                presenters:'Charissa Tarzia',
+                learnURL: 'TBC2',
+            },
+            { 
+                title: 'A shortish title',
+                presenters: 'Cornelia Koch',
+                learnURL: 'TBC2'
+            },
+        ]} />
+        <tr>
+            <td className='lbCell'><LearnButton learnURL="someting" /></td>
+            <td><LearnButton learnURL="someting" /></td>
+            <td><LearnButton learnURL="someting" /></td>
+        </tr>
+        <tr>
+            <td>
+                    2A
+            </td>
+            <td>
+                    2B
+            </td>
+            <td>
+                    2c
+            </td>
+        </tr>
+        <tr>
+            <td>
+                    3A
+            </td>
+            <td>
+                    3B
+            </td>
+            <td>
+                    3c
+            </td>
+        </tr>
+        <tr>
+            <td>
+                    4A
+            </td>
+            <td>
+                    4B
+            </td>
+            <td>
+                    4c
+            </td>
+        </tr>
+    </table>
+</div>
+

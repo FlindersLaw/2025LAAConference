@@ -8,7 +8,7 @@
 .SponsorfeatureSvg {
   width: 50%;
   object-fit: cover;
-  vertical-align: center;
+  vertical-align:middle;
 }
 
 .SponsorfpTitle {

@@ -86,13 +86,13 @@
 }
 
 /* Copied from EOIButton.css as it wasn't being read there */
-.buttonContainer {
+/* .buttonContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 10vh;
     width: 100%;
-}
+} */
 
 /* I'm using this underlined heading more and more so moving it to the
 global CSS file.  This was RFHeading */
@@ -227,6 +227,48 @@ global CSS file.  This was RFHeading */
 }
 .breakEntry {
   background-color: honeydew;
+}
+
+.cpTable {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border-left: 1px solid;
+  border-top: 1px solid;
+  border-right: 1px solid;
+  margin-bottom: 0;
+}
+
+.cpTable th,
+.cpTable td {
+  padding: 5px;
+  vertical-align: top;
+}
+/* .cpTable tr:first-child th {
+  border-bottom: none;
+} */
+.cpTable tr:nth-child(even) td {
+  background-color: white;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+.cpTable tr:nth-child(odd) td {
+  border-top: none;
+  border-left: none;
+}
+
+.cpTable th {
+  font-size: 0.8em;
+  font-weight: bold;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+.cpTable td {
+  width: 33%;
+  padding-top: 0;
+  vertical-align: top;
 }
 
 .cpBigTitleText p {

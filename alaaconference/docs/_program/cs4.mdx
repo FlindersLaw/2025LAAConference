@@ -1,0 +1,31 @@
+import {LearnButton} from '@site/src/components/EOIButton';
+import {ConcurrentSession, CSRow, DisplaySessionsWithIDs} from '@site/src/components/ConcurrentSession';
+
+<div className="ProgramLineItem">
+    <div className="cpTime">
+        09:15
+    </div>
+    <div className="cpItems">
+        <div className="cpSingleEntry titleEntry">
+            <div className="cpBigTitleText">
+            Concurrent Session 4
+            </div>
+        </div>
+    </div>
+</div>
+<div className="ProgramLineItem">
+    <table className='cpTable'>
+        <tr>
+            <th>
+                Room 1 TBC
+            </th>
+            <th>
+                Room 2 TBC
+            </th>
+            <th>
+                Room 3 TBC
+            </th>
+        </tr>
+        <DisplaySessionsWithIDs csKey={4} sessionIDList={[1, 2, 3]} />
+    </table>
+</div>
