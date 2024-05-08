@@ -84,8 +84,8 @@ export const sessionData = {
         learnURL: 'TBC3'
     },
     id1_C4 : {
-        title: "NO ABSTRACT Greenwashing Downunder",
-        presenters: "NO DETAILS M Adams",
+        title: 'International Enforcement of Environmental Laws via Private Law Applications: "Greenwashing downunder"',
+        presenters: "Michael Adams",
         learnURL: 'TBC3'
     },
     id2_A1 : {
@@ -129,8 +129,8 @@ export const sessionData = {
         learnURL: 'TBC3'
     },
     id2_C1 : {
-        title: "NO ABSTRACT Indigenous Law in Climate Litigation",
-        presenters: "NO DETAILS A Paul",
+        title: "Indigenous law in climate-change litigation - reclamation of the law as a tool for indigenous legal assertions",
+        presenters: "Dr Adrienne Paul, University of Canterbury, Metiria Stanton Turei, University of Otago",
         learnURL: 'TBC3'
     },
     id2_C2 : {
@@ -149,8 +149,8 @@ export const sessionData = {
         learnURL: 'TBC3'
     },
     id3_A1 : {
-        title: "NO PAPER",
-        presenters: "T Huchison",
+        title: "Technology and Law: Evolving Paradigms affecting the Legal Research Process?",
+        presenters: "Terry Hutchinson",
         learnURL: ''
     },
     id3_A2 : {
@@ -174,8 +174,8 @@ export const sessionData = {
         learnURL: ''
     },
     id4_A1 : {
-        title: "NO ABSTRACT: A Conversational AI: A Case Study on AI-Assisted Learning in a Criminal Law Subject",
-        presenters: "A Alimardani",
+        title: "A Conversational AI: A Case Study on AI-Assisted Learning in a Criminal Law Subject",
+        presenters: "Armin Alimardani, University of Woolongong, Emma Jane, University of NSW",
         learnURL: '',
     },
     id4_A2 : {
