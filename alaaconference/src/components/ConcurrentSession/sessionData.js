@@ -266,7 +266,7 @@ export const sessionData = {
     },
     id4_A3 : {
         title: "LEAD’s Peer Review of Teaching Program Pilot",
-        presenters: "Judith Marychurch",
+        presenters: "Judith Marychurch, University of Melbourne, Associate Professor Kelley Burton, University of the Sunshine Coast",
         learnURL: ''
     },
     id6_B1 : {
