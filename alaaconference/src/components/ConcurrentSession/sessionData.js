@@ -111,7 +111,7 @@ export const sessionData = {
     },
     id2_B2 : {
         title: "An Interdisciplinary Approach to Understanding Assaults on Police: Enriching Criminal Laws and Sentencing Policy",
-        presenters: "Kelley Burton, Kelly Hine, Catherine Creamer, Dimitra Lattas",
+        presenters: "Kelley Burton, Kelly Hine, Catherine Creamer, Dimitra Lattas, Katie Davenport-Klunder",
         learnURL: ''
     },
     id2_B3 : {
@@ -136,7 +136,7 @@ export const sessionData = {
     },
     id2_C3 : {
         title: "Bridging the Gap: Integrating Engineering, Law, and Indigenous Self-Determination in Infrastructure Development",
-        presenters: "Rachel Evans, Lecturer, University of Cantebury",
+        presenters: "Rachael Evans, Lecturer, University of Cantebury",
         learnURL: ''
     },
     id2_C4 : {
@@ -156,7 +156,7 @@ export const sessionData = {
     },
     id3_B1 : {
         title: "Gen Z Lawyers: Cultural and generational shifts in legal education, work and professional identity?",
-        presenters: "Professor Tania Leiman, Dean of Law, Flinders University",
+        presenters: "Professor Tania Leiman, Dean of Law, Flinders University, Deborah Ankor, Jo Milne",
         learnURL: ''
     },
     id3_B2 : {
@@ -192,7 +192,7 @@ export const sessionData = {
         learnURL: '',
     },
     id4_C1 : {
-        title: "Beyond Borders: Challenges in the Transnational Teaching of Introductory Law Units to Non-Law Students",
+        title: "Enhancing Legal Education through a Short Term Overseas Study Tour: A Case Study of UWA Law’s Singapore Study Tour",
         presenters: "Dr Kenny Yang, University of Western Australia, Lance DuBos, Lecturer, James Cook University, Matthias Cheong, Adjunct Lecturer, James Cook University",
         learnURL: '',
     },
