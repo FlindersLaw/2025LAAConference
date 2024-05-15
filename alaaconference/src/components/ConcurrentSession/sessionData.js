@@ -176,9 +176,9 @@ export const sessionData = {
         learnURL: '',
         noAbstract: true
     },
-    id4_A1 : {
-        title: "A Conversational AI: A Case Study on AI-Assisted Learning in a Criminal Law Subject",
-        presenters: "Armin Alimardani, University of Woolongong, Emma Jane, University of NSW",
+    id5_A1 : {
+        title: "Conversational AI: A Case Study on AI-Assisted Learning in a Criminal Law Subject",
+        presenters: "Dr Armin Alimardani, University of Woolongong, A/Prof Emma Jane, University of NSW",
         learnURL: '',
     },
     id4_A2 : {
@@ -197,7 +197,7 @@ export const sessionData = {
         learnURL: '',
     },
 
-    id5_A1 : {
+    id4_A1 : {
         title: "A Voyage Around John Merryman and the Development of Modern Legal Education - ‘Through legal education the legal culture is transferred from generation to generation’",
         presenters: "Emeritus Professor David Barker AM, University of Technology Sydney",
         learnURL: ''
