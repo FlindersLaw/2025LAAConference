@@ -193,7 +193,7 @@ export const sessionData = {
     },
     id4_C1 : {
         title: "Enhancing Legal Education through a Short Term Overseas Study Tour: A Case Study of UWA Law’s Singapore Study Tour",
-        presenters: "Dr Kenny Yang, University of Western Australia, Lance DuBos, Lecturer, James Cook University, Matthias Cheong, Adjunct Lecturer, James Cook University",
+        presenters: "Associate Professor Meredith Blake, Dr Kenny Yang, University of Western Australia",
         learnURL: '',
     },
 
