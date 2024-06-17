@@ -27,7 +27,7 @@ export const sessionData = {
     id1_A1 : {
         title: "AI + Legal Education: a new 'Diamond Age' or a threat to rights and values?",
         presenters: "Rob Chalmers, Senior Lecturer, Flinders University",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/2976374187'
     },
     id1_A2 : {
         title: 'Enhancing Negotiation Skills in Legal Education: Harnessing Artificial Intelligence through a Chat Bot Approach',
