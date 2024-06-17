@@ -25,8 +25,8 @@ export const sessionData = {
         learnURL: '',
     },
     id1_A1 : {
-        title: 'Automating Empirical Legal Research: the Case of British and Australian Judgments',
-        presenters: 'Ben Chen',
+        title: "AI + Legal Education: a new 'Diamond Age' or a threat to rights and values?",
+        presenters: "Rob Chalmers, Senior Lecturer, Flinders University",
         learnURL: ''
     },
     id1_A2 : {
@@ -65,18 +65,18 @@ export const sessionData = {
         learnURL: ''
     },
     id1_C1 : {
-        title: "Developing Effective Law to Ban Planned Obsolescence in Goods?",
-        presenters: "Dr Trish O'Sullivan, Senior Lecturer, Massey University, New Zealand",
+        title: "Are perpetual leases on Māori-owned land a basis for currently enforceable fiduciary obligations?",
+        presenters: "Dara Dimitrov, University of Waikato",
         learnURL: ''
     },
     id1_C2 : {
-        title: "Environmental Law and Earth's Futures: Discussing the role of legal scholarship and education in addressing environmental challenges by promoting precautionary risk management in environmental law pedagogy.",
-        presenters: "Rhett Martin",
+        title: "No session",
+        presenters: "",
         learnURL: ''
     },
     id1_C3 : {
-        title: "Sustainable Green Economy in the Era of Climate Change between Challenges and Hopes from Legal Perspective",
-        presenters: "Ahmad Sabirin, Universitas Islam Internatsional, Indonesia",
+        title: "Obligatory Activism? Academic-Practitioner Partnerships and the Pursuit of Justice for Migrants with Insecure Status",
+        presenters: "Samantha Currie, Monash University",
         learnURL: ''
     },
     id1_C4 : {
@@ -85,23 +85,23 @@ export const sessionData = {
         learnURL: ''
     },
     id2_A1 : {
-        title: "AI + Legal Education: a new 'Diamond Age' or a threat to rights and values?",
-        presenters: "Rob Chalmers, Senior Lecturer, Flinders University",
-        learnURL: ''
-    },
-    id2_A2 : {
         title: "The use of AI in Legal Education: Superhero or Villain?",
         presenters: "Linda Telai, Victoria University",
         learnURL: ''
     },
-    id2_A3 : {
+    id2_A2 : {
         title: "\"I don't know why I'm doing this\": Teaching tech skills to law students",
         presenters: "Mark Ferraretto, Senior Lecturer, Professor Tania Leiman, Dean of Law, Dr James Scheibner, Lecturer, Flinders University",
         learnURL: ''
     },
-    id2_A4 : {
+    id2_A3 : {
         title: "Dissecting Factors Hindering the Establishment and Multiplicity of Digital Business Models of Law Practice in Kenya",
         presenters: "Consolata Maitha, Tutorial Fellow, Mount Kenya University",
+        learnURL: ''
+    },
+    id2_A4 : {
+        title: "Navigating the Fourth Industrial Legal Revolution: Payoffs and Pitfalls for AI-informed Lawyers, Justice and Ethics",
+        presenters: "Professor Simon Bronitt, Dean of Sydney Law School, University of Sydney",
         learnURL: ''
     },
     id2_B1 : {
@@ -120,8 +120,8 @@ export const sessionData = {
         learnURL: ''
     },
     id2_B4 : {
-        title: "Trauma-Informed Practice and the Criminal Trial: A Conceptual Framework for the 'Trauma-Informed Trial'",
-        presenters: "Sarah Kendall",
+        title: "Colonial experiences and truth-telling in Australia and Aotearo New Zealand",
+        presenters: "Adrienne Paul, University of Canterbury, Metiria Stanton Turei, University of Otago",
         learnURL: ''
     },
     id2_C1 : {
@@ -145,13 +145,14 @@ export const sessionData = {
         learnURL: ''
     },
     id3_A1 : {
-        title: "Technology and Law: Evolving Paradigms affecting the Legal Research Process?",
-        presenters: "Terry Hutchinson",
+        title: "PANEL: Diverse Approaches to the Use of Generative AI in Learning Activities and Assessments in Law Schools",
+        presenters: "Kelley Burton, Nicole Graham, Anna Huggins, Judith Marychurch ",
         learnURL: ''
     },
     id3_A2 : {
-        title: "Navigating the Fourth Industrial Legal Revolution: Payoffs and Pitfalls for AI-informed Lawyers, Justice and Ethics",
-        presenters: "Professor Simon Bronitt, Dean of Sydney Law School, University of Sydney",
+        title: 'PANEL (continued)',
+        presenters: '',
+        noAbstract: true,
         learnURL: ''
     },
     id3_B1 : {
@@ -160,8 +161,8 @@ export const sessionData = {
         learnURL: ''
     },
     id3_B2 : {
-        title: 'No session',
-        noAbstract: true,
+        title: 'Teaching in challenging times: the role of retreats and reflection in improving staff morale, motivation and productivity',
+        presenters: 'Robert Chalmers, Simone Daniells, Samantha Kontra, Flinders University',
         learnURL: ''
     },
     id3_C1 : {
@@ -187,8 +188,8 @@ export const sessionData = {
         learnURL: ''
     },
     id4_B1 : {
-        title: "Teaching legal ideas to the national security community",
-        presenters: "Danielle Ireland-Piper",
+        title: "Using Generative AI for Assessment Design, Evaluation and Feedback: Opportunities and Challenges",
+        presenters: "Cornelia Koch, University of Adelaide",
         learnURL: '',
     },
     id4_C1 : {
@@ -234,13 +235,13 @@ export const sessionData = {
         learnURL: ''
     },
     id5_C1 : {
-        title: "Exploring the (regulatory) space",
-        presenters: "Peta Spender, Australian National University",
+        title: 'Pre-filling of tax returns in the 21st Century',
+        presenters: 'Robin Woellner, James Cook University',
         learnURL: ''
     },
     id5_C2 : {
-        title: "Globalization and private law: Impact of globalization on the development of private law through the example of mass transactions",
-        presenters: "Kseniia Tatarkina, Research Assistant, Helmut Schmidt University",
+        title: "Duped by scammers, let down by the law: Gaps in international regulation in Payment Redirection Fraud",
+        presenters: "Louise Parsons, Bond University",
         learnURL: ''
     },
     id5_C3 : {
