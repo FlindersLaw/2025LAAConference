@@ -221,8 +221,8 @@ export const sessionData = {
         learnURL: ''
     },
     id5_B3 : {
-        title: "No session",
-        noAbstract: true,
+        title: "Law Students and AI: The Challenges for Law Academics",
+        presenters: "Dara Dimitrov, University of Waikato",
         learnURL: ''
     },
     id4_B1 : {
