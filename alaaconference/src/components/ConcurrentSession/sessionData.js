@@ -241,8 +241,8 @@ export const sessionData = {
         learnURL: ''
     },
     id5_C2 : {
-        title: "Duped by scammers, let down by the law: Gaps in international regulation in Payment Redirection Fraud",
-        presenters: "Louise Parsons, Bond University",
+        title: "No session",
+        noAbstract: true,
         learnURL: ''
     },
     id5_C3 : {
