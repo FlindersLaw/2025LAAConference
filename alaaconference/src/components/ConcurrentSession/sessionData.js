@@ -70,18 +70,19 @@ export const sessionData = {
         learnURL: ''
     },
     id1_C2 : {
-        title: "No session",
-        presenters: "",
+        title: "The Scholarship of Family Law: Essential learning for compassionate and socially aware lawyers",
+        presenters: "Michelle Fernando",
         learnURL: ''
     },
     id1_C3 : {
-        title: "Obligatory Activism? Academic-Practitioner Partnerships and the Pursuit of Justice for Migrants with Insecure Status",
-        presenters: "Samantha Currie, Monash University",
+        title: 'International Enforcement of Environmental Laws via Private Law Applications: "Greenwashing downunder"',
+        presenters: "Michael Adams",
         learnURL: ''
     },
     id1_C4 : {
-        title: 'International Enforcement of Environmental Laws via Private Law Applications: "Greenwashing downunder"',
-        presenters: "Michael Adams",
+        title: "No Session",
+        presenters: "",
+        noAbstract: true,
         learnURL: ''
     },
     id2_A1 : {
@@ -187,11 +188,6 @@ export const sessionData = {
         presenters: "Dr Louise Parsons, Bond University",
         learnURL: ''
     },
-    id4_B1 : {
-        title: "Using Generative AI for Assessment Design, Evaluation and Feedback: Opportunities and Challenges",
-        presenters: "Cornelia Koch, University of Adelaide",
-        learnURL: '',
-    },
     id4_C1 : {
         title: "Enhancing Legal Education through a Short Term Overseas Study Tour: A Case Study of UWA Law’s Singapore Study Tour",
         presenters: "Associate Professor Meredith Blake, Dr Kenny Yang, University of Western Australia",
@@ -225,8 +221,13 @@ export const sessionData = {
         learnURL: ''
     },
     id5_B3 : {
-        title: "The Scholarship of Family Law: Essential learning for compassionate and socially aware lawyers",
-        presenters: "Dr Michelle Fernando, Senior Lecturer, University of South Australia",
+        title: "No session",
+        noAbstract: true,
+        learnURL: ''
+    },
+    id4_B1 : {
+        title: "Can Australian Legal Education Meet the Challenge of Cross-Cultural Competence Training? Insights from Overseas Law Schools' Experience",
+        presenters: "Dr Richard Wu, Dr Angus Young, University of Hong Kong, Dr Grace Li, University of Technology Sydney",
         learnURL: ''
     },
     id4_B2 : {
@@ -271,9 +272,9 @@ export const sessionData = {
         learnURL: ''
     },
     id6_B1 : {
-        title: "Can Australian Legal Education Meet the Challenge of Cross-Cultural Competence Training? Insights from Overseas Law Schools' Experience",
-        presenters: "Dr Richard Wu, Dr Angus Young, University of Hong Kong, Dr Grace Li, University of Technology Sydney",
-        learnURL: ''
+        title: "Using Generative AI for Assessment Design, Evaluation and Feedback: Opportunities and Challenges",
+        presenters: "Cornelia Koch, University of Adelaide",
+        learnURL: '',
     },
     id6_B2 : {
         title: "Reimagining International Student Engagement in a Globalised World",
