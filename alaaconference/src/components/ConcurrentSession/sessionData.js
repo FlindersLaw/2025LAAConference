@@ -32,37 +32,37 @@ export const sessionData = {
     id1_A2 : {
         title: 'Enhancing Negotiation Skills in Legal Education: Harnessing Artificial Intelligence through a Chat Bot Approach',
         presenters: 'Dr Tammy Johnson',
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/2976377735'
     },
     id1_A3 : {
         title: 'Building GenAI into Law Assessments: How do students use genAI when given the chance?',
         presenters: 'Samantha Kontra, Senior Lecturer, Flinders University',
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/2976378176'
     },
     id1_A4 : {
         title: 'Magic Defeat Magic? - An examination about AI plagiarism and the impact on legal education and research',
         presenters: 'Qinqing Xu, Lecturer (Assistant Professor), University of Manchester, UK',
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/3029785334'
     },
     id1_B1 : {
         title: 'One Legal Future Post-Referendum: South Australia’s First Nations Voice',
         presenters: 'Dr Anna Olijnyk, Cornelia Koch, Madeleine Perrett',
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/2976378268'
     },
     id1_B2 : {
         title: 'Ngara: Embedding truth-telling about the legal system in the Sydney Law School curriculum',
         presenters: 'Dr Fady Aoun, Associate Professor, Elisa Arcioni, Dr Louise Boon-Kuo, Louisa Di Bartolomeo, University of Sydney',
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/2976378381'
     },
     id1_B3 : {
         title: "Embedding First Nations perspectives into the law curriculum, 'what do you do when it's all left up to you?'",
         presenters: "Dr Katie O'Bryan, Monash University",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/2976378518'
     },
     id1_B4 : {
         title: "'Zero tolerance to racism' - building law teachers' anti-racism capacities",
         presenters: "Jennifer Nielsen",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/3030527235'
     },
     id1_C1 : {
         title: "Are perpetual leases on Māori-owned land a basis for currently enforceable fiduciary obligations?",
