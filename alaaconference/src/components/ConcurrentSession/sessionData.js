@@ -67,17 +67,17 @@ export const sessionData = {
     id1_C1 : {
         title: "Are perpetual leases on Māori-owned land a basis for currently enforceable fiduciary obligations?",
         presenters: "Dara Dimitrov, University of Waikato",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/lkDVaKBkmDlyWPp9'
     },
     id1_C2 : {
         title: "The Scholarship of Family Law: Essential learning for compassionate and socially aware lawyers",
         presenters: "Michelle Fernando",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/Ae2RavrLbeAKanz4'
     },
     id1_C3 : {
         title: 'International Enforcement of Environmental Laws via Private Law Applications: "Greenwashing downunder"',
         presenters: "Michael Adams",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/do3MQJB8Nn66Q15w'
     },
     id1_C4 : {
         title: "No Session",
@@ -88,62 +88,62 @@ export const sessionData = {
     id2_A1 : {
         title: "The use of AI in Legal Education: Superhero or Villain?",
         presenters: "Linda Telai, Victoria University",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/do3MQJB8Nny6Q15w'
     },
     id2_A2 : {
         title: "\"I don't know why I'm doing this\": Teaching tech skills to law students",
         presenters: "Mark Ferraretto, Senior Lecturer, Professor Tania Leiman, Dean of Law, Dr James Scheibner, Lecturer, Flinders University",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/do3MQJB8XLl1Q15w'
     },
     id2_A3 : {
         title: "Dissecting Factors Hindering the Establishment and Multiplicity of Digital Business Models of Law Practice in Kenya",
         presenters: "Consolata Maitha, Tutorial Fellow, Mount Kenya University",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/mlNDZ3BbELqKQznG'
     },
     id2_A4 : {
         title: "Navigating the Fourth Industrial Legal Revolution: Payoffs and Pitfalls for AI-informed Lawyers, Justice and Ethics",
         presenters: "Professor Simon Bronitt, Dean of Sydney Law School, University of Sydney",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/lkROZPr7V0VMajMg'
     },
     id2_B1 : {
         title: "The Honest Politician's Guide to Crime Control, updated",
         presenters: "Rick Sarre, University of South Australia",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/e9YpQNB8A2NlQxjM'
     },
     id2_B2 : {
         title: "An Interdisciplinary Approach to Understanding Assaults on Police: Enriching Criminal Laws and Sentencing Policy",
         presenters: "Kelley Burton, Kelly Hine, Catherine Creamer, Dimitra Lattas, Katie Davenport-Klunder",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/J24jall2dYnYa0A1'
     },
     id2_B3 : {
         title: "Bringing sexual offence law back into the classroom:  an argument for a trauma-informed curriculum to better equip law graduates for practice",
         presenters: "Emma Henderson, Kirsty Duncanson, La Trobe University",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/9kmlZVVd3n6yZpgV'
     },
     id2_B4 : {
-        title: "Colonial experiences and truth-telling in Australia and Aotearo New Zealand",
-        presenters: "Adrienne Paul, University of Canterbury, Metiria Stanton Turei, University of Otago",
-        learnURL: ''
+        title: "Colonial experiences and truth-telling in Australia and Aotearoa New Zealand",
+        presenters: "Dr Adrienne Paul, University of Canterbury, Metiria Stanton Turei, University of Otago",
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/YDgnZel4Ay9bQwrA'
     },
     id2_C1 : {
         title: "Indigenous law in climate-change litigation - reclamation of the law as a tool for indigenous legal assertions",
         presenters: "Dr Adrienne Paul, University of Canterbury, Metiria Stanton Turei, University of Otago",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/Ae2RavrLjvo9anz4'
     },
     id2_C2 : {
         title: "Developments, Opportunities, and Complexities in Global South Scholarship on Climate Litigation: Literature review of scholarship by authors based in or identifying from the Global South",
         presenters: "Jemima Roe",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/j40PQDB8wAdDWvXB'
     },
     id2_C3 : {
         title: "Bridging the Gap: Integrating Engineering, Law, and Indigenous Self-Determination in Infrastructure Development",
         presenters: "Rachael Evans, Lecturer, University of Cantebury",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/9kmlZVVd3K7KZpgV'
     },
     id2_C4 : {
         title: "Interdisciplinary Relations of Law and Ethnology on the Issue of Indigenous Ethnic Group Recognition: A Case Study of the Taiwan Constitutional Court’s Judgment No 17 of 2022",
         presenters: "Chou Yu-Jie, Dr Chou Shih-Huang",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/goElQynLko3KZ3yY'
     },
     id3_A1 : {
         title: "PANEL: Diverse Approaches to the Use of Generative AI in Learning Activities and Assessments in Law Schools",
