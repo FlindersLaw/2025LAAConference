@@ -94,6 +94,11 @@ const config = {
             position: 'left'
           },
           {
+            label: 'FAQ',
+            to: '/faq',
+            position: 'left',
+          },
+          {
             type: 'html',
             position: 'right',
             value: '<a href="https://flinders.edu.au"><img src="img/Flinders_University_Logo_Horizontal_RGB_Master.png" height="30px"></a>',
