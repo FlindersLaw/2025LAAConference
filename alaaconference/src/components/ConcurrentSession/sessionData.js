@@ -80,10 +80,10 @@ export const sessionData = {
         learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/do3MQJB8Nn66Q15w'
     },
     id1_C4 : {
-        title: "No Session",
-        presenters: "",
+        title: "Indigenous law in climate-change litigation - reclamation of the law as a tool for indigenous legal assertions",
+        presenters: "Dr Adrienne Paul, University of Canterbury, Metiria Stanton Turei, University of Otago",
         noAbstract: true,
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/Ae2RavrLjvo9anz4'
     },
     id2_A1 : {
         title: "The use of AI in Legal Education: Superhero or Villain?",
@@ -126,9 +126,9 @@ export const sessionData = {
         learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/YDgnZel4Ay9bQwrA'
     },
     id2_C1 : {
-        title: "Indigenous law in climate-change litigation - reclamation of the law as a tool for indigenous legal assertions",
-        presenters: "Dr Adrienne Paul, University of Canterbury, Metiria Stanton Turei, University of Otago",
-        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/Ae2RavrLjvo9anz4'
+        title: "Teaching in challenging times: the role of retreats and reflection in improving staff morale, motivation and productivity",
+        presenters: "Robert Chalmers, Simone Daniells, Samantha Kontra, Flinders University",
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/AL83WzELdVpeZ0Pg'
     },
     id2_C2 : {
         title: "Developments, Opportunities, and Complexities in Global South Scholarship on Climate Litigation: Literature review of scholarship by authors based in or identifying from the Global South",
@@ -148,7 +148,7 @@ export const sessionData = {
     id3_A1 : {
         title: "PANEL: Diverse Approaches to the Use of Generative AI in Learning Activities and Assessments in Law Schools",
         presenters: "Kelley Burton, Nicole Graham, Anna Huggins, Judith Marychurch ",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/jpoxajGLg820QbPE'
     },
     id3_A2 : {
         title: 'PANEL (continued)',
@@ -159,17 +159,17 @@ export const sessionData = {
     id3_B1 : {
         title: "Gen Z Lawyers: Cultural and generational shifts in legal education, work and professional identity?",
         presenters: "Professor Tania Leiman, Dean of Law, Flinders University, Deborah Ankor, Jo Milne",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/j40PQDB89NojWvXB'
     },
     id3_B2 : {
-        title: 'Teaching in challenging times: the role of retreats and reflection in improving staff morale, motivation and productivity',
-        presenters: 'Robert Chalmers, Simone Daniells, Samantha Kontra, Flinders University',
+        title: "No session",
+        noAbstract: true,
         learnURL: ''
     },
     id3_C1 : {
         title: "PANEL: Civics Educators? Reflections on the Referendum on the Role and Limits of Legal Academics in Public Education",
         presenters: "Joe McIntyre, Melissa Castan, Catherine Renshaw, Cornelia Koch, Eddy Synott",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/do3MQJB8mp66Q15w'
     },
     id3_C2 : {
         title: "PANEL (continued)",
@@ -181,28 +181,28 @@ export const sessionData = {
     id5_A1 : {
         title: "Conversational AI: A Case Study on AI-Assisted Learning in a Criminal Law Subject",
         presenters: "Dr Armin Alimardani, University of Woolongong, A/Prof Emma Jane, University of NSW",
-        learnURL: '',
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/mDRxWBB84V5yWjb1',
     },
     id4_A2 : {
         title: "The Future Life of a Professional Law Academic in Australia: What to Think About Now",
         presenters: "Dr Louise Parsons, Bond University",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/pRxDZ4JdqnwVa183'
     },
     id4_C1 : {
         title: "Enhancing Legal Education through a Short Term Overseas Study Tour: A Case Study of UWA Law’s Singapore Study Tour",
         presenters: "Associate Professor Meredith Blake, Dr Kenny Yang, University of Western Australia",
-        learnURL: '',
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/Ae2RavrLGobOanz4',
     },
 
     id4_A1 : {
         title: "A Voyage Around John Merryman and the Development of Modern Legal Education - ‘Through legal education the legal culture is transferred from generation to generation’",
         presenters: "Emeritus Professor David Barker AM, University of Technology Sydney",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/BJkrQAB8R25AZEge'
     },
     id5_A2 : {
         title: "PANEL: Becoming a Climate Conscious Lawyer - a grass roots approach to changing legal education",
         presenters: "Julia Dehm, Kate Galloway, Nicole Graham, Margaret Davies",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/PVKBQOmeqlMYWj5x'
     },
     id5_A3 : {
         title: "PANEL: (continued)",
@@ -213,32 +213,32 @@ export const sessionData = {
     id5_B1 : {
         title: "Law Schools as Agents of Change",
         presenters: "Indrani Bandyopadhyay, Australian Catholic University",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/wKmOZ5JD61ErWzMA'
     },
     id5_B2 : {
         title: "Australian Law Schools, Collaborative Practice and the Future of Lawyering",
         presenters: "Charissa Tarzia, Lecturer, Flinders University",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/4b3zaMB805z9Q2j7'
     },
     id5_B3 : {
         title: "Law Students and AI: The Challenges for Law Academics",
         presenters: "Dara Dimitrov, University of Waikato",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/Xb8YaLB8XA3XZyn1'
     },
     id4_B1 : {
         title: "Can Australian Legal Education Meet the Challenge of Cross-Cultural Competence Training? Insights from Overseas Law Schools' Experience",
         presenters: "Dr Richard Wu, Dr Angus Young, University of Hong Kong, Dr Grace Li, University of Technology Sydney",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/E1P8aX8P70MeawA9'
     },
     id4_B2 : {
         title: "So What’s Next? Enhancing the Employability of Law Students",
         presenters: "Professor Noeleen McNamara, Associate Professor Kerstin Braun, University of Southern Queensland",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/kxodWGB8b4wMZgP7'
     },
     id5_C1 : {
         title: 'Pre-filling of tax returns in the 21st Century',
         presenters: 'Robin Woellner, James Cook University',
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/lkROZPr7Ag23ajMg'
     },
     id5_C2 : {
         title: "No session",
@@ -248,12 +248,12 @@ export const sessionData = {
     id5_C3 : {
         title: "Navigating the Nexus: Colonisation, Globalisation, and the Teaching of International Investment Law",
         presenters: "Dr Umair Ghori, Associate Professor, Bond University",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/Ae2RavrLGm69anz4'
     },
     id4_C2 : {
         title: "Integrating Emerging Technology and Property Law Doctrine in Undergraduate and Postgraduate Property and Trusts Law Teaching",
         presenters: "Brendan Grigg, Senior Lecturer, Flinders University",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/lkDVaKB86DrdWPp9'
     },
     id6_A1 : {
         title: "PANEL: Generative AI and the Courts",
@@ -269,37 +269,37 @@ export const sessionData = {
     id4_A3 : {
         title: "LEAD’s Peer Review of Teaching Program Pilot",
         presenters: "Judith Marychurch, University of Melbourne, Associate Professor Kelley Burton, University of the Sunshine Coast",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/x5m7aolJg7oBQkAV'
     },
     id6_B1 : {
         title: "Using Generative AI for Assessment Design, Evaluation and Feedback: Opportunities and Challenges",
         presenters: "Cornelia Koch, University of Adelaide",
-        learnURL: '',
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/x5m7aolJgYoYQkAV',
     },
     id6_B2 : {
         title: "Reimagining International Student Engagement in a Globalised World",
         presenters: "Brenda Tronson, Senior Lecturer, Chantal Bostock, Senior Lecturer, Casey-Lee Hirst, Lecturer, Nicola Kozlina, Lecturer, University of NSW",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/O7A9QmlVwe2Na6x3'
     },
     id4_B3 : {
         title: "Improving the Student Experience of Class Participation: A Study of Enablers and Inhibitors",
         presenters: "Dr Bostock, Dr Rowe, Dr Gooi, Professor Vines, University of NSW",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/j40PQDB8y43eWvXB'
     },
     id6_C1 : {
         title: "Encouraging interdisciplinary and intercultural collaboration and exploring how insights from other disciplines and diverse cultures can enrich legal scholarship and education",
         presenters: "Dr Catherine Ordway, University of Canberra",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/YBl3Z2JvdmG6Zv16'
     },
     id6_C2 : {
         title: "Oral history and discourse analysis as tools for empirical legal and linguistic research",
         presenters: "Professor Kim Rubenstein, Dr Anne Isaac, University of Canberra",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/j40PQDB8y3qlWvXB'
     },
     id4_C3 : {
         title: "Gender imbalance and career opportunities for women in the aviation sector: Aviation Law and Bachelor of Aviation students",
         presenters: "Charles Giacco, Lecturer, University of South Australia, Dr Matt Harvey, Senior Lecturer, Victoria University",
-        learnURL: ''
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/PVKBQOmeq9n3Wj5x'
     },
     idX_XX : {
         title: "",
