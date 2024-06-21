@@ -80,10 +80,9 @@ export const sessionData = {
         learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/do3MQJB8Nn66Q15w'
     },
     id1_C4 : {
-        title: "No Session",
-        presenters: "",
-        noAbstract: true,
-        learnURL: ''
+        title: "Indigenous law in climate-change litigation - reclamation of the law as a tool for indigenous legal assertions",
+        presenters: "Dr Adrienne Paul, University of Canterbury, Metiria Stanton Turei, University of Otago",
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/Ae2RavrLjvo9anz4'
     },
     id2_A1 : {
         title: "The use of AI in Legal Education: Superhero or Villain?",
@@ -126,9 +125,9 @@ export const sessionData = {
         learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/YDgnZel4Ay9bQwrA'
     },
     id2_C1 : {
-        title: "Indigenous law in climate-change litigation - reclamation of the law as a tool for indigenous legal assertions",
-        presenters: "Dr Adrienne Paul, University of Canterbury, Metiria Stanton Turei, University of Otago",
-        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/Ae2RavrLjvo9anz4'
+        title: 'Teaching in challenging times: the role of retreats and reflection in improving staff morale, motivation and productivity',
+        presenters: 'Robert Chalmers, Simone Daniells, Samantha Kontra, Flinders University',
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/AL83WzELdVpeZ0Pg'
     },
     id2_C2 : {
         title: "Developments, Opportunities, and Complexities in Global South Scholarship on Climate Litigation: Literature review of scholarship by authors based in or identifying from the Global South",
@@ -162,8 +161,8 @@ export const sessionData = {
         learnURL: ''
     },
     id3_B2 : {
-        title: 'Teaching in challenging times: the role of retreats and reflection in improving staff morale, motivation and productivity',
-        presenters: 'Robert Chalmers, Simone Daniells, Samantha Kontra, Flinders University',
+        title: "No Session",
+        noAbstract: true,
         learnURL: ''
     },
     id3_C1 : {
@@ -241,9 +240,9 @@ export const sessionData = {
         learnURL: ''
     },
     id5_C2 : {
-        title: "No session",
-        noAbstract: true,
-        learnURL: ''
+        title: "The recent jurisprudence on the legal requirements to account for the  effect of Downstream or scope 3 emissions -Australia and the UK",
+        presenters: 'Jennifer McKay, University of South Australia',
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/L8KjW9J0qlx2aJbv'
     },
     id5_C3 : {
         title: "Navigating the Nexus: Colonisation, Globalisation, and the Teaching of International Investment Law",
