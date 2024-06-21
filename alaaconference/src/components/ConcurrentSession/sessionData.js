@@ -256,12 +256,12 @@ export const sessionData = {
         learnURL: ''
     },
     id6_A1 : {
-        title: "PANEL: Generative AI and the Courts",
-        presenters: "Joe McIntyre, Constance Lee, Lisa Parker, University of South Australia, Anne Carter, University of Adelaide",
+        title: "No Session",
+        noAbstract: true,
         learnURL: ''
     },
     id6_A2 : {
-        title: "PANEL (continued)",
+        title: "No Session",
         noAbstract: true,
         presenters: "",
         learnURL: ''
