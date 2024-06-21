@@ -37,10 +37,6 @@ export default function Home() {
       description="Australasian Legal Academics Association Conference 2024 <head />">
       <HomepageHeader />
       <main>
-        <RegisterButton registerURL='/registration' buttonText='ALAA 2024 Conference Registration' />
-        <p style={{textAlign: "center"}}>
-          <strong>REGISTRATION CLOSES 20 JUNE 2024</strong>
-        </p>
         <HomepageFeatures />
         <HomepageSponsors />
       </main>
