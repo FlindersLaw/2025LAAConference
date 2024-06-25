@@ -95,9 +95,8 @@ export const sessionData = {
         learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/do3MQJB8XLl1Q15w'
     },
     id2_A3 : {
-        title: "Dissecting Factors Hindering the Establishment and Multiplicity of Digital Business Models of Law Practice in Kenya",
-        presenters: "Consolata Maitha, Tutorial Fellow, Mount Kenya University",
-        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/mlNDZ3BbELqKQznG'
+        title: "No Session",
+        noAbstract: true,
     },
     id2_A4 : {
         title: "Navigating the Fourth Industrial Legal Revolution: Payoffs and Pitfalls for AI-informed Lawyers, Justice and Ethics",
@@ -120,9 +119,9 @@ export const sessionData = {
         learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/9kmlZVVd3n6yZpgV'
     },
     id2_B4 : {
-        title: "Colonial experiences and truth-telling in Australia and Aotearoa New Zealand",
-        presenters: "Dr Adrienne Paul, University of Canterbury, Metiria Stanton Turei, University of Otago",
-        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/YDgnZel4Ay9bQwrA'
+        title: "No Session",
+        learnURL: '',
+        noAbstract: true,
     },
     id2_C1 : {
         title: 'Teaching in challenging times: the role of retreats and reflection in improving staff morale, motivation and productivity',
@@ -281,9 +280,8 @@ export const sessionData = {
         learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/O7A9QmlVwe2Na6x3'
     },
     id4_B3 : {
-        title: "Improving the Student Experience of Class Participation: A Study of Enablers and Inhibitors",
-        presenters: "Dr Bostock, Dr Rowe, Dr Gooi, Professor Vines, University of NSW",
-        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/j40PQDB8y43eWvXB'
+        title: "No Session",
+        noAbstract: true,
     },
     id6_C1 : {
         title: "Encouraging interdisciplinary and intercultural collaboration and exploring how insights from other disciplines and diverse cultures can enrich legal scholarship and education",
