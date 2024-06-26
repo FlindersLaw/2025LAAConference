@@ -70,9 +70,9 @@ export const sessionData = {
         learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/lkDVaKBkmDlyWPp9'
     },
     id1_C2 : {
-        title: "The Scholarship of Family Law: Essential learning for compassionate and socially aware lawyers",
-        presenters: "Michelle Fernando",
-        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/Ae2RavrLbeAKanz4'
+        title: "Social Change, Protest & The Law. What role should the legal profession play?",
+        presenters: "Jennifer McKay, Sarah Moulds, University of South Australia",
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/lkROZPrrGLbNajMg',
     },
     id1_C3 : {
         title: 'International Enforcement of Environmental Laws via Private Law Applications: "Greenwashing downunder"',
@@ -119,9 +119,9 @@ export const sessionData = {
         learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/9kmlZVVd3n6yZpgV'
     },
     id2_B4 : {
-        title: "No Session",
-        learnURL: '',
-        noAbstract: true,
+        title: "The Scholarship of Family Law: Essential learning for compassionate and socially aware lawyers",
+        presenters: "Michelle Fernando",
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/Ae2RavrLbeAKanz4'
     },
     id2_C1 : {
         title: 'Teaching in challenging times: the role of retreats and reflection in improving staff morale, motivation and productivity',
