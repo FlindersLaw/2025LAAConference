@@ -239,7 +239,7 @@ export const sessionData = {
         learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/lkROZPr7Ag23ajMg'
     },
     id5_C2 : {
-        title: "The recent jurisprudence on the legal requirements to account for the  effect of Downstream or scope 3 emissions -Australia and the UK",
+        title: "Achieving net zero: recent jurisprudence on the legal requirements to account for the effect of Downstream or scope 3 emissions in Australia and the UK",
         presenters: 'Jennifer McKay, University of South Australia',
         learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/L8KjW9J0qlx2aJbv'
     },
