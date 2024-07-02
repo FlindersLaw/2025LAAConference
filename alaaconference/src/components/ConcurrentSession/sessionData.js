@@ -236,7 +236,7 @@ export const sessionData = {
     id4_B3 : {
         presenters: "Dr Bostock, Dr Rowe, Dr Gooi, Professor Vines, University of NSW",
         title: "Improving the Student Experience of Class Participation: A Study of Enablers and Inhibitors",
-        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/kxodWGB8b4wMZgP7',
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/Ae2Ravr5Y33banz4',
     },
     id5_C1 : {
         title: 'Pre-filling of tax returns in the 21st Century',
