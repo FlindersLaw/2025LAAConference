@@ -233,6 +233,11 @@ export const sessionData = {
         presenters: "Professor Noeleen McNamara, Associate Professor Kerstin Braun, University of Southern Queensland",
         learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/kxodWGB8b4wMZgP7'
     },
+    id4_B3 : {
+        presenters: "Dr Bostock, Dr Rowe, Dr Gooi, Professor Vines, University of NSW",
+        title: "Improving the Student Experience of Class Participation: A Study of Enablers and Inhibitors",
+        learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/kxodWGB8b4wMZgP7',
+    },
     id5_C1 : {
         title: 'Pre-filling of tax returns in the 21st Century',
         presenters: 'Robin Woellner, James Cook University',
@@ -278,10 +283,6 @@ export const sessionData = {
         title: "Reimagining International Student Engagement in a Globalised World",
         presenters: "Brenda Tronson, Senior Lecturer, Chantal Bostock, Senior Lecturer, Casey-Lee Hirst, Lecturer, Nicola Kozlina, Lecturer, University of NSW",
         learnURL: 'https://padlet.com/ferr0182/alaa-2024-conference-mdjb79253jraj1xa/wish/O7A9QmlVwe2Na6x3'
-    },
-    id4_B3 : {
-        title: "No Session",
-        noAbstract: true,
     },
     id6_C1 : {
         title: "Encouraging interdisciplinary and intercultural collaboration and exploring how insights from other disciplines and diverse cultures can enrich legal scholarship and education",
