@@ -46,6 +46,7 @@ export function LearnButton(props) {
       <a
         href={theURL}
         className={styles.learnButton}
+        target="_blank"
       >
         {buttonText}
       </a>
