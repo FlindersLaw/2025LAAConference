@@ -1,0 +1,34 @@
+import {ConcurrentSession, CSRow, DisplaySessionsWithIDs} from '@site/src/components/ConcurrentSession';
+import {LearnButton} from '@site/src/components/EOIButton';
+
+<div className="ProgramLineItem">
+    <div className="cpTime">
+        11:15
+    </div>
+    <div className="cpItems">
+        <div className="cpSingleEntry titleEntry">
+            <div className="cpBigTitleText">
+            Concurrent session 1
+            </div>
+        </div>
+    </div>
+</div>
+<div className="ProgramLineItem">
+    <table className='cpTable'>
+        <tr>
+            <th>
+                <div>Room 1407</div>
+                <div style={{fontWeight: 'normal'}}>Chair: James Scheibner</div>
+            </th>
+            <th>
+                Room 1426A
+                <div style={{fontWeight: 'normal'}}>Chair: Charissa Tarzia</div>
+            </th>
+            <th>
+                Room 1426B
+                <div style={{fontWeight: 'normal'}}>Chair: Edwin Tongoi</div>
+            </th>
+        </tr>
+        <DisplaySessionsWithIDs csKey={1} sessionIDList={[1, 2, 3, 4]} />
+    </table>
+</div>

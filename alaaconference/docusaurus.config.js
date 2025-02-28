@@ -15,7 +15,7 @@ const config = {
   // Set the production url of your site here
   // Set the /<baseUrl>/ pathname under which your site is served
   // For Azure Static Webapps deployment
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://alaa2025.netlify.app/',
   baseUrl: '/',
 
   // For GitHub pages deployment, it is often '/<projectName>/'
@@ -59,7 +59,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/legaltech.png',
       navbar: {
         title: '2024 ALAA Conference',
         logo: {
@@ -74,22 +74,30 @@ const config = {
             position: 'left'
           },
           {
-            label: 'FAQ',
-            to: '/faq',
-            position: 'left'
+            label: 'Accommodation',
+            to: '/accommodation',
+            position: 'left',
           },
-          /*{
-            label: 'Program',
-            to: '/tbc',
+          {
+            label: 'Flinders New City Campus',
+            to: '/flinders_ncc',
+            position: 'left',
+          },
+          {
+            label: 'Gala Dinner',
+            to: '/gala_dinner',
+            position: 'left',
+          },
+          {
+            label: 'Program and Conference Material',
+            to: '/docs',
             position: 'left'
           },
           {
-            label: 'Conference Material',
-            to: '/tbc',
-            position: 'left'
-          },*/
-          /* Not using this (yet)
-          {to: '/blog', label: 'Blog', position: 'left'}, */
+            label: 'FAQ',
+            to: '/faq',
+            position: 'left',
+          },
           {
             type: 'html',
             position: 'right',
@@ -100,47 +108,46 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          /*{
-            title: 'Registration',
+          {
+            title: 'About Flinders University',
             items: [
               {
-                label: 'Register here',
-                href: 'https://tbc.com'
+                label: 'Our New City Campus',
+                href: 'https://www.flinders.edu.au/campus/festival-plaza',
+              },
+              {
+                label: 'College of Business, Government and Law',
+                href: 'https://flinders.edu.au/cbgl',
               },
             ],
-          },*/
-          /* {
-            title: 'Conference Information',
+          },
+          {
+            title: 'Conference hosted by Flinders Law',
             items: [
               {
-                label: 'Program',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Conference',
-                href: 'https://discordapp.com/invite/docusaurus',
+                // Hard push from the left to manually align under title
+                html: '<div style="margin-left: 57px; margin-top: 40px;"><img src="img/Flinders_University_Logo_Horizontal_RGB_Stroked.png" style="height: 50px"></div>',
               },
             ],
-          },*/
-          /* {
+          },
+          {
             title: 'Contact',
             items: [
               {
                 label: 'Contact ALAA',
-                to: '/blog',
+                href: 'mailto:admin@alaa.asn.au',
               },
               {
                 label: 'Contact Flinders Law',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'mailto:bglenquiries@flinders.edu.au',
               },
               {
-                label: 'ALAA Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Contact the Conference Project Team',
+                href: 'mailto:0cb050e2.FLINDERS.onmicrosoft.com@au.teams.ms',
               },
             ],
-          }, */
+          },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Flinders University. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

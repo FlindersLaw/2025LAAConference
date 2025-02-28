@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-function EOIBanner() {
+const EOIBanner = () => {
     return (
         <div className="content">
             <h1>Registration Opens Soon!</h1>
@@ -12,6 +12,18 @@ function EOIBanner() {
             </p> 
         </div>
     );
+}
+
+export const RegisterBanner = () => {
+    return(
+        <div className='content'>
+            <h1>Registrations are Open!</h1>
+            <p>
+                Early bird registration for the ALAA 2024 Conference is now open.  Please
+                click on the button below to register.
+            </p>
+        </div>
+    )
 }
 
 export default EOIBanner;

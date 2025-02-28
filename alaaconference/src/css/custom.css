@@ -18,6 +18,10 @@
 /*  --ifm-navbar-background-color: rgb(1,28,44); 
   --ifm-navbar-link-color: white; */
 
+  --flinders-blue: rgb(34,45,75);
+  --flinders-yellow: rgb(252,212,6);
+  --flinders-yellow-hover: rgb(242, 231, 176);
+
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -30,4 +34,310 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+@font-face {
+  font-family: PlayfairDisplay;
+  src: url(https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap);
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap);
+}
+
+.hero__title {
+  font-family: PlayfairDisplay;
+}
+
+/* Styles for the registration page */
+.registration_title {
+  text-align: Center
+}
+/* Table for displaying fee schedule */
+.registrationFeeTable {
+  vertical-align: top;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid var(--flinders-blue);
+}
+
+.registrationFeeTable tr,
+.registrationFeeTable th,
+.registrationFeeTable td {
+  border: none;
+}
+
+/* Turn off inherited banding */
+.registrationFeeTable tr:nth-child(odd),
+.registrationFeeTable tr:nth-child(even) {
+  background-color: transparent;
+}
+
+.registrationFeeTable th {
+  padding-right: 50px;
+}
+
+.registrationFeeTable td {
+  padding-left: 2px;
+  padding-right: 2px;
+  text-align: right;
+}
+
+/* Copied from EOIButton.css as it wasn't being read there */
+/* .buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+} */
+
+/* I'm using this underlined heading more and more so moving it to the
+global CSS file.  This was RFHeading */
+.ALAAHeading {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    border: 0;
+    border-bottom: 1px solid var(--flinders-blue);
+    margin-bottom: 10px;
+}
+
+/* Styles for accommodation.mdx */
+/* Custom styles for alternating image-text sections */
+.alternating-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.alternating-section .section-text {
+  flex: 1 1 60%; /* Gives text majority of the space */
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: top;
+}
+
+.alternating-section .section-image {
+  flex: 1 1 30%; /* Adjust based on your image size preference */
+  max-width: 30%; /* Keeps image from taking more than 30% of space */
+}
+
+.ProgramDayTitle {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  border: 0;
+  border-bottom: 1px solid var(--flinders-blue);
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+/* Styles for the main ProgramLineItem container */
+.ProgramLineItem {
+  display: flex; /* Enables flexbox layout */
+  max-width: 100%; /* Ensures the div does not exceed the width of its parent */
+  margin: 0 auto;
+  text-align: left;
+  /* border: 1px solid; */
+}
+.ProgramLineItem:not(last-child) {
+  border-bottom: none;
+}
+.ProgramLineItem:last-child {
+  border-bottom: 1px solid;
+}
+
+.ProgramLineItem .cpItems {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-width: 0;
+}
+
+/* .ProgramLineItem .cpFlexStack {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  margin: 0 auto;
+} */
+
+.ProgramLineItem .cpTime {
+  width: 100px;
+  text-align: left;
+  font-weight: bold;
+  border-top: 1px solid;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  padding-left: 10px;
+  background-color: honeydew ;
+}
+
+.ProgramLineItem .cpSingleEntry {
+  flex-grow: 1; 
+  text-align: left;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+}
+.ProgramLineItem .cpSingleEntry:last-child {
+  border-bottom: none;
+}
+
+.ProgramLineItem .cpSessionColumns {
+  display: flex;
+}
+
+.ProgramLineItem .cpSessionColumn {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.ProgramLineItem .cpColumnEntry {
+  padding: 5px;
+  border-bottom: 1px solid;
+  border-right: 1px solid;
+}
+.ProgramLineItem .cpColumnEntry:last-child {
+  border-bottom: none;
+}
+.cpRoom {
+  font-size: 0.8em;
+  font-weight: bold;
+  text-align: center;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  background-color: aliceblue;
+}
+
+/* Give title entries a special colour and different padding */
+.titleEntry {
+  background-color: var(--flinders-yellow-hover);
+}
+.galaDinnerEntry {
+  background-color: azure;
+  height: 300px;
+}
+.breakEntry {
+  background-color: honeydew;
+}
+
+.cpTable {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border-left: 1px solid;
+  border-top: 1px solid;
+  border-right: 1px solid;
+  margin-bottom: 0;
+}
+
+.cpTable th,
+.cpTable td {
+  padding: 5px;
+  vertical-align: top;
+}
+/* .cpTable tr:first-child th {
+  border-bottom: none;
+} */
+.cpTable tr:nth-child(even) td {
+  background-color: white;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+.cpTable tr:nth-child(odd) td {
+  border-top: none;
+  border-left: none;
+}
+
+.cpTable th {
+  font-size: 0.8em;
+  font-weight: bold;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+.cpTable td {
+  width: 33%;
+  padding-top: 0;
+  vertical-align: top;
+}
+
+.cpBigTitleText p {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.cpTitleText p {
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+.cpLittleTitleText p {
+  font-size: 0.8em;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
+.cpLevel2Text p {
+  font-size: 0.8em;
+  padding-top: 0px;
+  margin: 0;
+}
+
+.cpLevel3Text {
+  font-size: 0.6em;
+}
+
+/* Adjustments for mobile screens */
+@media (max-width: 768px) {
+  .alternating-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .alternating-section .section-text,
+  .alternating-section .section-image {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .ProgramDayTitle {
+    text-align: center;
+  }
+
+  .ProgramLineItem .cpSessionColumns {
+    flex-direction: column;
+  }
+
+  .ProgramLineItem .cpColumnEntry {
+    border-top: 1px solid;
+  }
+  .ProgramLineItem .cpColumnEntry:last-child {
+    border-top: none;
+    border-bottom: 1px solid;
+  }
+  .cpRoom {
+    border-bottom: none;
+  }
+
+  .ProgramLineItem .cpFlexStack .cpStackedEntry {
+    flex: 1 0 100%;
+  }
+
+  .ProgramLineItem .cpTime {
+    flex: 0 0 100px; /* Keeps the cpTime div at a fixed width */
+  }
+
+  .cpSingleEntry:last-child {
+    border-bottom: none; /* No bottom border for the last entry */
+  }
 }
