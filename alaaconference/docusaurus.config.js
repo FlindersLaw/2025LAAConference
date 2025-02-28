@@ -15,16 +15,16 @@ const config = {
   // Set the production url of your site here
   // Set the /<baseUrl>/ pathname under which your site is served
   // For Azure Static Webapps deployment
-  // url: 'https://your-docusaurus-site.example.com',
-  // baseUrl: '/',
+  url: 'https://alaa2025.netlify.app/',
+  baseUrl: '/',
 
   // For GitHub pages deployment, it is often '/<projectName>/'
-  url: 'https://flinderslaw.github.io/',
-  baseUrl: '/2024ALAAConference',
-  organizationName: 'FlindersLaw', // Usually your GitHub org/user name.
-  projectName: '2024ALAAConference', // Usually your repo name.
-  deploymentBranch: 'gh-pages',
-  trailingSlash: false,
+  // url: 'https://flinderslaw.github.io/',
+  // baseUrl: '/2024ALAAConference',
+  // organizationName: 'FlindersLaw', // Usually your GitHub org/user name.
+  // projectName: '2024ALAAConference', // Usually your repo name.
+  // deploymentBranch: 'gh-pages',
+  // trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
