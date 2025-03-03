@@ -20,7 +20,7 @@ function HomepageHeader() {
         <p className="hero__subtitle">
           {siteConfig.tagline}
         </p>
-        <img src="img/Flinders_University_Logo_Horizontal_RGB_Master.png" style={{height: '50px'}}></img>
+        <img src="img/uq_logo.png" style={{height: '50px'}}></img>
       </div>
     </header>
   );

@@ -42,9 +42,10 @@ export default function HomepageSponsors() {
           <h1>With Thanks to Our Sponsors</h1>
         </div>
         <div className="row">
-          {SponsorLogos.map((props, idx) => (
+          Sponsor logos can be added here as sponsors come on board.
+          {/* {SponsorLogos.map((props, idx) => (
             <Feature key={idx} {...props} />
-          ))}
+          ))} */}
         </div>
       </div>
     </section>
