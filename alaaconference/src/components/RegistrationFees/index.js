@@ -9,7 +9,7 @@ export const PaymentGatewayURL = 'https://pay.flinders.edu.au/BGL024';
 
 const FeeInfoList = [
   {
-    title: 'Early Career Academics Day (3 July 2024)',
+    title: 'Early Career Academics Day (2 July 2025)',
     description: (
       <>
         <p>
@@ -21,13 +21,13 @@ const FeeInfoList = [
     ),
   },
   {
-    title: 'ALAA Conference (4 & 5 July 2024)',
+    title: 'ALAA Conference (3 & 4 July 2025)',
     description: (
       <>
       <table className='registrationFeeTable'>
           <tr>
-              <th><del>Early Bird registration</del></th>
-              <td><del>$250.00</del></td>
+              <th>Early Bird registration</th>
+              <td>$250.00</td>
           </tr>
           <tr>
               <th>Regular Registration</th>
@@ -35,7 +35,7 @@ const FeeInfoList = [
           </tr>
       </table>
       <p>
-      <strong>REGISTRATIONS CLOSE on 20 June 2024</strong>
+      <strong>REGISTRATIONS CLOSE on <i>INSERT REGISTRATION CLOSE DATE</i></strong>
       </p>
       </>
     ),
@@ -51,9 +51,7 @@ const FeeInfoList = [
           </tr>
       </table>
       <p>
-        The Gala dinner will be held on the evening of <strong>4&nbsp;July 2024</strong> at the
-        Stamford Plaza Hotel.
-      </p>
+        The Gala dinner will be held on the evening of <strong>3&nbsp;July 2025</strong> at the <b><i>INSERT DINNER VENUE</i></b>.  </p>
       <p>
         If you have not yet registered for the 
         Gala Dinner please register below.
